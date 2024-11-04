@@ -1,0 +1,471 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Remarks to accompany a Map of the Rivers Orinoco, Essequebo, Branco &amp;c.
+               &amp;c. Part I.</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/custom.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container-fluid"><a class="navbar-brand" href="#">Schomburgk Digital Edition</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item active"><a class="nav-link" href="#">Text View</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Map View</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Search</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Analysis</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container-fluid">
+         <div class="row">
+            <aside class="col-md-3">
+               <div class="toc">
+                  <h5>Contents</h5>
+                  <ul>
+                     <li><a href="#section-d2e238">|1| Remarks to accompany a Map of the rivers Orinoco, Essequebo, Branco &amp;c. &amp;c. Part
+                           I.</a></li>
+                  </ul>
+               </div>
+               <div class="filters">
+                  <h5>Filters</h5><label><input type="checkbox" id="filter-persons"> Persons</label><br><label><input type="checkbox" id="filter-places"> Places</label><br><label><input type="checkbox" id="filter-flora"> Flora</label><br><label><input type="checkbox" id="filter-fauna"> Fauna</label><br><label><input type="checkbox" id="filter-zoological"> Zoological Names</label></div>
+               <div class="index">
+                  <h5>Index of Persons</h5>
+                  <ul></ul>
+               </div>
+            </aside>
+            <main class="col-md-9">
+               <div class="page-indicator">Page <span id="current-page">1</span></div>
+               <div id="text-content">
+                  <div>
+                     
+                     <div class="page-break" data-page="1"></div><script>
+            document.getElementById('current-page').textContent = '1';
+        </script>
+                     
+                     <div id="section-d2e236">
+                        
+                        <h2>|1| Remarks to accompany a Map of the rivers <span class="place-name" data-id="river.orinoco">Orinoco</span>, <span class="place-name" data-id="river.essequibo">Essequebo</span>,
+                           <span class="place-name" data-id="river.branco">Branco</span> &amp;c. &amp;c. Part I.</h2>
+                        
+                        <p>by Robert H Schomburgk, corr. Memb. of the Ry<sup>l</sup>. Geogr<sup>l</sup>. Soc<sup>y</sup>.</p>
+                        
+                        
+                        <p>Amongst the expeditions, which since <span class="person-name" data-id="pers.columbus">Columbus</span>'s times have been undertaken to the new continent, shine
+                           conspicuously <span class="person-name" data-id="pers.humboldt">von Humboldt</span>’s Travels to
+                           the equinoctial regions, the happy result of which has so vastly enriched physical
+                           science, that those publications which issued from <span class="person-name" data-id="pers.humboldt">Humboldt</span> and <span class="person-name" data-id="pers.bonpland">Bonpland</span> (his
+                           courageous and enlightened friend and fellow traveller) as the fruits of their
+                           combined investigations during their perilous journey, have been called by a
+                           competent judge a work <q>“of gigantic extent and richness to which the modern
+                              literature of Europe can hardly offer a parallel.”</q> It does not belong to my
+                           present subject to enumerate the addition which sciences in general received from
+                           this expedition, their value has been acknowledged long before this by a grateful
+                           public and placed the name of <span class="person-name" data-id="pers.humboldt">Humboldt</span>
+                           amongst those, which even time will not obliterate.</p>
+                        
+                        
+                        <p>More than thirty years have elapsed since <span class="person-name" data-id="pers.humboldt">Humboldt</span> returned to Europe and his expressed wish, that he soon might
+                           find a successor in a similar undertaking, may have been partly realized, but still
+                           not to the full extent as the philosopher wished. Several journeys have been
+                           undertaken to <span class="place-name" data-id="place.colombia">Colombia</span> and <span class="place-name" data-id="place.brazil">Brazil</span>, but neither has had a pure scientific
+                           view for its object, and though Geography and Statistics in general may have reaped
+                           some additions by these casual journeys, <span class="person-name" data-id="pers.humboldt">Humboldt</span>’s expressed hopes remain unrealized—no geographical
+                           situations have been determined, no botanist has herbalized on the banks of the
+                           <span class="place-name" data-id="river.meta">Meta</span>, <span class="place-name" data-id="river.vichada">Vichada</span>, <span class="place-name" data-id="river.zama">Zama</span>, <span class="place-name" data-id="river.branco">Branco</span>, and <span class="place-name" data-id="river.negro">Negro</span>.</p>
+                        </div>
+                     
+                     
+                     <div class="page-break" data-page="2"></div><script>
+            document.getElementById('current-page').textContent = '2';
+        </script>
+                     
+                     <div id="section-d2e317">
+                        
+                        <p>The height of fame which <span class="person-name" data-id="pers.humboldt">Humboldt</span> has
+                           reached by his journey and his subsequent publications, which resulted from the same,
+                           might perhaps prevent the planning of a similar expedition, where the predecessor
+                           was
+                           so richly endowed with a genius, which in his sphere stands single at the present
+                           age, but circumstances are the rulers of human undertakings and though <span class="person-name" data-id="pers.humboldt">Humboldt</span> determined the nature of the <span class="place-name" data-id="river.orinoco">Orinoco</span>’s communication with the <span class="place-name" data-id="river.negro">Rio Negro</span>, the more interesting object of their
+                           journey, the mighty river’s sources, remained a geographical problem. The hostile
+                           Indians prevented the travellers from penetrating much further than <span class="place-name" data-id="place.esmeralda">Esmeralda</span>. The circumstances may have
+                           changed, and what <span class="person-name" data-id="pers.humboldt">Humboldt</span> found at that
+                           time impossible, may be accomplished by perseverance. But this is not the only
+                           stirring impulse to action, the illustrious traveller expresses frequently the wish,
+                           that several geographical positions which unfavourable weather prevented him to
+                           ascertain, might be hereafter astronomically determined. He entertained likewise the
+                           hope, that a botanist might herbalize on the banks of the rivers, <span class="place-name" data-id="river.meta">Meta</span>, <span class="place-name" data-id="river.vichada">Vichada</span>, <span class="place-name" data-id="river.zama">Zama</span>, <span class="place-name" data-id="river.branco">Branco</span>, <span class="place-name" data-id="river.negro">Negro</span>, &amp;c., &amp;c., and says especially, that a traveller, who
+                           was favoured with the hospitality of the missionaries could spend a year on the banks
+                           of the rivers <span class="place-name" data-id="river.atabapo">Atabapo</span>, <span class="place-name" data-id="river.tuamini">Tuamini</span> and <span class="place-name" data-id="river.negro">Negro</span>, and a second year on the mountains of <span class="place-name" data-id="place.esmeralda">Esmeralda</span> and the upper <span class="place-name" data-id="river.orinoco">Orinoco</span> might easily triplicate the species
+                           described by <span class="person-name" data-id="pers.aublet">Aublet</span> and <span class="person-name" data-id="pers.richard">Richard</span>. He was further obliged to restrict his
+                           investigations only to the skirts of the <span class="place-name" data-id="mountain.sierra_parime">Sierra Parime</span>, and the interesting part, encompassed by the branches
+                           of this mountain-chain, remained unexplored. Thus a rich field has been left open
+                           for
+                           further investigation, the happy result of which may amply reward the dangers and
+                           perils connected with a similar enterprise, and though but few in the lapse of
+                           centuries could dare to enter the lists with a <span class="person-name" data-id="pers.humboldt">Humboldt</span> whose rare talent possessed a variety of knowledge to avail
+                           himself of every advantage, where opportunity offered him to exercise the same, still
+                           I do not shrink from planning a new expedition to <span class="place-name" data-id="place.south_america">South America</span>. Blessed with a strong
+                           constitution and acclimatized during a sojourn of four years in the <span class="place-name" data-id="place.west_indies">West Indies</span>, the most time of which was
+                           spent in botanical excursions and surveying expeditions, accustomed therefore to
+                           bodily exercises and possessed of some knowledge of physics, I hope a European public
+                           will not consider it presumptuous and chimerical at my having resolved to undertake
+                           a
+                           scientific journey to <span class="place-name" data-id="place.south_america">South
+                              America</span>, provided I am encouraged and assisted; and in this respect I
+                           have placed my chief anchor of hope on England, which has always shown herself ready
+                           to protect schemes of utility and to give her powerful assistance to the execution
+                           of
+                           plans, which have been connected with the advancement of science and the furtherance
+                           of useful knowledge.</p>
+                        
+                        
+                        <p>In order to become more acquainted with the real object of my planned expedition,
+                           I
+                           attract the reader’s attention to the following observations which with the
+                           assistance of the annexed Maps will partly point out my proposed route. The Map as
+                           well as the observations have been mostly compiled from <span class="person-name" data-id="pers.humboldt">Humboldt</span>’s travels to the equinoctial Regions,
+                           <span class="person-name" data-id="pers.bolingbroke">Bolingbroke</span>’s Voyage to Demerary,
+                           Colombia &amp; Vol. London. 1822, and for the further constructions of the map, I
+                           have been assisted by "<span class="person-name" data-id="pers.tanner">Tanner</span>’s map of
+                           <span class="place-name" data-id="place.south_america">South America</span> on the basis of
+                           <span class="person-name" data-id="pers.cary">John Cary</span>’s and <span class="person-name" data-id="pers.la_cruz">La Cruz</span>’s maps of the whole continent. <span class="person-name" data-id="pers.humboldt">Humboldt</span>’s geographical Atlas and his map of the
+                           <span class="place-name" data-id="river.orinoco">Orinoco</span> were unfortunately not in my
+                           reach.</p>
+                        </div>
+                     
+                     
+                     <div class="page-break" data-page="3"></div><script>
+            document.getElementById('current-page').textContent = '3';
+        </script>
+                     
+                     <div id="section-d2e426">
+                        
+                        <p><span class="place-name" data-id="place.south_america">South America</span>, or the southern
+                           half of the new world, forms a triangle and extends from Latitude 12° N. to 52° 30’
+                           S. and from 35° to 80° W. Longitude. It is connected with the northern part of the
+                           new continent by the Isthmus of Darien and its greatest extent from the Gulf of
+                           Maracaybo to the Straits of Magellan has been computed to consist of 4600 miles—its
+                           greatest breadth from Cape St. Roque (Lat. 5° S.) to Cape Blanco (Lat. 4° S.) to 3500
+                           miles—its superficial area to 7,400,000 square miles. A chain of mountains which
+                           extend along the western coast, and stretch from north to south, or from Cape Pilares
+                           at the western part of the Strait of Magellan to the Cape of Paria, opposite the
+                           Island of Trinidad. This mountain-chain, which is famed for its lofty summits,
+                           covered with eternal snow and for its volcanic character, with many volcanoes still
+                           in activity, is known by the name of the <span class="place-name" data-id="mountain.andes">Andes</span> (Cordillera de los Andes). Separated from the same are three
+                           groups of mountains, which have no connection with the <span class="place-name" data-id="mountain.andes">Andes</span>, one of which is northerly situated from
+                           the same and two to the east; namely the Sierra Nevada de Santa Marta, the <span class="place-name" data-id="mountain.sierra_parime">Sierra de la Parime</span>, between the 4th
+                           and 8th parallel of northern Latitude, and the mountains of Brazil (Chiquitos),
+                           between the 15th and 28th parallel of southern Latitude.</p>
+                        
+                        
+                        <p>This singular division of mountains forms three great basins, which contain
+                           four-fifths of the whole surface of <span class="place-name" data-id="place.south_america">South
+                              America</span>, between the mountains of Venezuela and the group of Parime
+                           extend the plains of Apure and the lower <span class="place-name" data-id="river.orinoco">Orinoco</span>; between the Sierra of Parime and those of Brazil are the
+                           plains of the rivers Amazon, <span class="place-name" data-id="river.negro">Negro</span> and
+                           Madeira, and between the mountains of Brazil or the Chiquitos and the southern end
+                           of
+                           the continent are the plains of the Rio Plata. Their division distinguishes the
+                           valleys of the three great rivers, which drain the whole continent, the <span class="place-name" data-id="river.orinoco">Orinoco</span>, the Amazon, and the Plata.</p>
+                        
+                        
+                        <p>The <span class="foreign-word" lang="es">llanos</span> and plateaus or elevated plains, are
+                           striking features in the Geography of <span class="place-name" data-id="place.south_america">South
+                              America</span>. The <span class="foreign-word" lang="es">llanos</span>, the first of
+                           which extends (i.e., from the mountains of Caraccas to the forests of Guiana and the
+                           delta of the <span class="place-name" data-id="river.orinoco">Orinoco</span>) over a space of
+                           250,000 sq. miles and form three divisions connected by narrow openings, two of
+                           which, namely the <span class="foreign-word" lang="es">llanos</span> of the lower <span class="place-name" data-id="river.orinoco">Orinoco</span> and those of the Rio Plata or Buenos
+                           Ayres, are overgrown with grasses; the one which is situated between them, or the
+                           <span class="foreign-word" lang="es">llanos</span> of the river Amazon is covered with
+                           impenetrable wood. The plateaus or table land of the <span class="place-name" data-id="mountain.andes">Andes</span> are inferior in extent, scarcely 100
+                           miles in circuit, but they are from 8,000 to 9,000 feet elevated above the sea—the
+                           plains of Quito are 12,000 feet above the level of the sea—and are separated by deep
+                           valleys.</p>
+                        
+                        
+                        <p>The climate of this vast continent is colder than other regions under a similar
+                           latitude. Many of the summits of its mountains are covered with perpetual snow and
+                           even under the line, the heat is not found so extreme, as one would suppose; arising
+                           very probably from the narrowness of the country and the elevation of the land. In
+                           some of the countries on the banks of the Amazon and the <span class="place-name" data-id="river.negro">Rio Negro</span> it rains during ten months of the year
+                           and there are other places on the shore of that continent where none falls for
+                           several years. But generally speaking two seasons divide the year, the dry and the
+                           rainy.</p>
+                        
+                        
+                        <p>No one can imagine the clearness of the atmosphere between the 4th and 10th degree
+                           of
+                           northern Latitude from the month of January to that of December; the sky is then
+                           constantly cloudless, the <span class="foreign-word" lang="es">llanos</span>, these immense
+                           plains which in the rainy season display a beautiful verdure, are scorched, and
+                           assume the aspect of a desert; the earth cracks and whirlwinds raise large clouds
+                           of
+                           dust; the alligators and the large serpents remain buried in the dried mud, till they
+                           are awakened from their lethargy by the first showers, which set in at the <span class="place-name" data-id="river.orinoco">Orinoco</span> about the end of April. The heat
+                           increases progressively, the azure colour of the sky disappears and a grey tint is
+                           spread over it; dense vapours cover the atmosphere, which is convulsed by frequent
+                           thunderstorms; the rain falls in torrents, and the rivers rising above their banks,
+                           inundate the surrounding plains. Thus the woody marshes of Guiana are rendered
+                           insalubrious and become the abode of swarms of insects, which are the unceasing
+                           torment of men and beasts.</p>
+                        
+                        
+                        
+                        <p>In these climates nature is marked by the most stupendous features and its scenery
+                           abounds in the sublime and beautiful; thus are its productions as peculiar as its
+                           features and the wonders which it exhibits are but sparingly known in European
+                           countries. Since <span class="person-name" data-id="pers.humboldt">Humboldt</span> and <span class="person-name" data-id="pers.bonpland">Bonpland</span>'s return, we have alone become
+                           acquainted with 87 species of palm trees, these characteristic and distinguishing
+                           signs of tropical vegetation, the pride of warmer climates, which alone give grandeur
+                           to a landscape by their lofty forms and majestic appearance. The banks of the
+                           <span class="place-name" data-id="river.orinoco">Orinoco</span> and Amazon are clothed with
+                           forests of the greatest extent, characterised by a variety, and a magnificence to
+                           which the graphic and discerning pen of a <span class="person-name" data-id="pers.humboldt">Humboldt</span> could only do justice. Enormous plains extend their verdant
+                           surfaces beyond the visible horizon and the most juicy fruits, and aromatic trees,
+                           which diffuse a delightful odour, arrive to a perfection which no other region can
+                           boast of. The cultivated ground yields the sugar cane, the coffee-tree, the cocoa,
+                           the latter of which grows wild in some parts, as well as cinnamon, vanilla, the
+                           nutmeg, pepper, the camphor tree, the delicious <span class="flora-name">Ananas</span>,
+                           oranges and a variety of other fruits; many medicinal plants and various sorts of
+                           woods, used for dyes and carpentry. The cow-tree is peculiar to <span class="place-name" data-id="place.south_america">South America</span>, being famed for the
+                           abundance of glutinous and nutritious milk which its trunk yields, when incisions
+                           are
+                           made in the same, and European grain is likewise cultivated upon fields, which rise
+                           from 5 to 9,000 feet above the level of the sea, which gives to <span class="place-name" data-id="place.south_america">South America</span> the advantages of the
+                           torrid and the temperate zone.</p>
+                        
+                        
+                        <p>In Guiana the air is filled with numerous butterflies of the most splendid colours
+                           and in the forests, myriads of shining flies astonish the traveller by night. But
+                           as
+                           if to counterbalance these shining peculiarities of the torrid zone, insects exist,
+                           which occasion the greatest annoyance to its inhabitants. Thus are the different
+                           tribes of 
+                           <div>tipulae</div> of which the 
+                           <div>mosquito</div> forms a species, and of the tribes of reptiles, the largest and
+                           most venomous snakes, e.g., the <i class="zoological-name">boa constrictor</i>, the
+                           <i class="zoological-name">rattle snake</i> and several other kinds, dangerous for
+                           their being armed with deadly poison. The rivers abound in fishes and likewise in
+                           alligators. A variety of birds, distinguished by the richness of their plumage or
+                           their size, from the <i class="zoological-name">colibri</i> to the <i class="zoological-name">condor</i>, people the trees of the forests and the plains.
+                           Apes of the most fantastic appearance are distributed through the woods—the peculiar
+                           tribe of quadrupeds, defective with respect to teeth, appear to be confined to the
+                           new world, thus are the <i class="zoological-name">sloth</i>, the <i class="zoological-name">ant-eater</i>, the <i class="zoological-name">armadillo</i>.
+                           The forests are neither void of beasts of prey, and the <i class="zoological-name">jaguar</i> and <i class="zoological-name">puma</i> or <i class="zoological-name">cougar</i> (<i class="zoological-name">Felis onca</i> and <i class="zoological-name">Felis concolor &amp; discolor</i>), commit depredations and
+                           the first attacks even men. Extensive plains are covered with herds of horses, mules
+                           and oxen, the offspring of European races.</p>
+                        
+                        
+                        <p>These animals were introduced by the Spaniards in 1548 and have since multiplied to
+                           that extent, that <span class="person-name" data-id="pers.humboldt">Humboldt</span> supposes
+                           millions to rove wild over the <span class="foreign-word" lang="es">llanos</span> during the
+                           period of his travels, the export from Venezuela to the West India Islands amounted
+                           annually to 30,000 mules, 147,000 cow-hides, and 140,000 
+                           <div>Arobes</div> of 
+                           <div>Tassajó</div> or slightly salted and
+                           dried meat.</p>
+                        
+                        
+                        <p>Nor is the mineral kingdom poor in productions; <span class="place-name" data-id="place.brazil">Brazil</span> produces diamonds, gold; and other parts of <span class="place-name" data-id="place.south_america">South America</span> abound in iron, tin, lead,
+                           quicksilver—like precious ores are found in <span class="place-name" data-id="place.chile">Chile</span> and the silver-mines of Potosi are famed for their rich
+                           returns.</p>
+                        
+                        
+                        <p>This vast empire was formerly almost in the sole possession of two European nations,
+                           the Spaniards and Portuguese, but with the exception of Guiana, it is at present
+                           entirely independent of Europe. It is divided into the empire of <span class="place-name" data-id="place.brazil">Brazil</span>, the republics of <span class="place-name" data-id="place.colombia">Colombia</span>, <span class="place-name" data-id="place.venezuela">Venezuela</span>, <span class="place-name" data-id="place.peru">Peru</span>,
+                           <span class="place-name" data-id="place.ecuador">Ecuador</span>, <span class="place-name" data-id="place.bolivia">Bolivia</span>, <span class="place-name" data-id="place.chile">Chile</span>, <span class="place-name" data-id="place.buenos_aires">Buenos
+                              Ayres</span> or the united Provinces of la Plata, the Banda Oriental,
+                           <span class="place-name" data-id="place.paraguay">Paraguay</span> and the <span class="place-name" data-id="place.terra_del_fuego">Terra del Fuego</span>, the latter of which is
+                           in the possession of the natives; the whole population having been estimated at
+                           between 13 and 14 million, there would not be more than 2 persons on each square mile
+                           of its superficial area. The inhabitants are composed of whites, Indians and negroes
+                           and their mixed races. The whites are mostly creoles, the number of Europeans is but
+                           small. The Indians or native tribes are in some parts still independent, and have
+                           been in others subdued and mostly converted to the Catholic religion. The negroes
+                           are
+                           Africans or descendants of Africans.</p>
+                        
+                        
+                        <p>When I spoke of the groups of mountains, which subdivide the southern part of the
+                           new
+                           Continent, I mentioned likewise the <span class="place-name" data-id="mountain.sierra_parime">Sierra
+                              Parime</span>, and after having given a rapid sketch of <span class="place-name" data-id="place.south_america">South America</span> in general, I shall now
+                           dwell more particularly on the country encompassed by this chain and its branches,
+                           as
+                           it is to form that region, to the investigation of which, I intend to dedicate the
+                           first years of my planned expedition. But I shall prefer to point out firstly the
+                           main object of my journey, and to propose a route which shall conduct me to the
+                           attainment of the same and like the traveller, whose steps lead him gradually to new
+                           prospects and to the beauties of a favoured climate, describe on the way the
+                           prominent features, which according to those, who visited or described these regions
+                           before, astonish the wanderer or attract his contemplative and reflecting mind to
+                           the
+                           mighty handiwork of the creative power.</p>
+                        
+                        
+                        <p>The object of this planned journey is:</p>
+                        
+                        
+                        <ul>
+                           
+                           <li>1. To examine the features of the country, its mountains, the bed and banks of
+                              rivers, whether navigable, whether tributary streams or the confluence of several,
+                              the river’s descent, the productions of the soil through which it drains, the
+                              country’s climate, its animal and vegetable kingdom.</li>
+                           
+                           <li>2. The character of the inhabitants—whether civilization has been attempted or
+                              is in progress and by what nation, or what prospects there are for attempting it;
+                              furthermore to make most minute observations, whether trade might be carried on
+                              with them, in what the barter probably would consist and in what way the same
+                              might be carried on to the greatest advantage for Europeans.</li>
+                           
+                           <li>3. To determine geographically the country which I investigate, by ascertaining
+                              astronomically the most prominent features and to collect such materials as will
+                              assist in forming accurate delineations of the same and to neglect no opportunity
+                              to note such phenomena as might contribute to a description of its physical
+                              geography.</li>
+                           
+                           <li>4. To form not only collections of plants, but likewise of minerals, insects,
+                              etc.</li>
+                           </ul>
+                        
+                        
+                        <p>Conformable to an expressed wish of the Royal Geographical Society of London, I would
+                           commence my researches in <span class="place-name" data-id="place.demerara">Demerara</span>,
+                           and laying the investigation of the Imataka mountains (between the 7th and 8th degree
+                           of northern latitude) for the present aside, I place the reader at once on the river
+                           <span class="place-name" data-id="river.essequibo">Essequebo</span>, which is nine miles
+                           west from the Demerary River, and its mouth above twenty miles wide. At the mouth
+                           of
+                           the same are three islands, which are valuable for the high state of their
+                           cultivation; the easternmost is Leguan, that in the centre Wakenaam and the next
+                           Tiger Island, which form four entrances into the river. Southward of these are a
+                           succession of other islands, which extend five and twenty to thirty miles beyond the
+                           first. About fifteen miles from the mouth is Fort-Island, which was formerly
+                           fortified, but is now in decay. The tides of the <span class="place-name" data-id="river.essequibo">Essequebo</span> are pretty regular and extend nearly a hundred miles up.
+                           The confluence of the rivers Coyoni or Cuyuni and Mazarony, with the <span class="place-name" data-id="river.essequibo">Essequebo</span> takes place about forty miles above
+                           the river’s mouth (Lat 6° 24’ north). The Rinocote and the Usupania mountains give
+                           an
+                           opening to the Mazarony by a break in the hills which form in the <span class="place-name" data-id="river.essequibo">Essequebo</span> the 39 falls which are accounted
+                           from Arinda (a former military post Lat. 5°30’ N.) to the mouth of the Rupunuri. Long
+                           before we approach the confluence of these three rivers—(where there was formerly
+                           opposite the stream Tupuro a Dutch military post, Kyk-over-al) all traces of
+                           cultivation have disappeared, and the eye observes only an impenetrable forest, which
+                           stretches from both sides of the river deep in the interior. The next river of
+                           consequence which flows into the <span class="place-name" data-id="river.essequibo">Essequebo</span>, is the Sibarona, the sources of which are found on the
+                           northern side of the Pacarayna mountains, at the same time the Tavaricuri, a
+                           tributary stream of the Rupunuri originates on the southern side of the same group
+                           of
+                           mountains—thus drains the <span class="place-name" data-id="river.essequibo">Essequebo</span>
+                           both declivities.</p>
+                        
+                        
+                        <p>The Rupunuri falls at 4° 10' Lat. into the <span class="place-name" data-id="river.essequibo">Essequebo</span>; between one of its tributary streams, which I named
+                           already, the Tavaricuri and the stream Pirara, a tributary of the Mahu, exists a land
+                           carriage (<span class="term">Portage</span>)—a small tongue of land, which divides the basin of
+                           two rivers and over which the boats are either carried upon the shoulders of the crew
+                           or dragged upon rollers—I shall henceforth call them "Portage"—a second one is more
+                           southerly between the Rupunuri and the Sarauri, which flows into the Tacutu. The
+                           first European who crossed the latter portage was <span class="person-name" data-id="pers.hortsmann">Nicolas Hortsmann</span>, a native from Hildesheim in Germany and who had
+                           settled as surgeon in Guiana. Attracted by the reports of great riches which might
+                           be
+                           discovered in the interior, he manned in 1739 a canoe (<span class="term">coreal</span>) with
+                           Indians and ascended the <span class="place-name" data-id="river.essequibo">Essequebo</span>
+                           and followed its course by dragging the canoe along its rapids and causing it to be
+                           carried across the narrow neck of land, until he reached the <span class="place-name" data-id="river.branco">Rio Branco</span>, which he descended to the <span class="place-name" data-id="river.negro">Rio Negro</span> and arrived in 1740 in Pará. Here he
+                           met the French academician M. Condamine, to whom he communicated a map of his route
+                           and a sketch of his journal. This was very likely the journal, which afterwards was
+                           found amongst the papers of the celebrated Geographer <span class="person-name" data-id="pers.danville">d’Anville</span> and which <span class="person-name" data-id="pers.humboldt">Humboldt</span> found an opportunity to peruse.</p>
+                        
+                        
+                        <p>At a later period (1793) Don Fr. José Rodriguez Barate (then stationed as ensign in
+                           Pará) crossed this portage twice on his way to Surinam, where he went on the object
+                           of business for his government; and but lately there arrived (February 1811) several
+                           Dutch colonists by the same isthmus at the Portuguese fort San Joaquin in order to
+                           receive permission from its commander to descend the <span class="place-name" data-id="river.branco">Rio Branco</span>.</p>
+                        
+                        
+                        <p>Having crossed the more northern portage between the Tavaricuri and the cano Pirara,
+                           we find ourselves at once upon the classical ground of El Dorado de la Parime and
+                           in
+                           the midst of the high mountains, which since the 16th century encircled the Laguna
+                           de
+                           Parime or the lake of Rupunuwini, that figured until lately upon the maps of
+                           <span class="place-name" data-id="place.south_america">South America</span>; regions which
+                           to this period are but imperfectly known and which are inhabited by independent
+                           tribes of Indians. In the journal of the Royal Geographical Society of London II Vol.
+                           p. 227 is an able treatise on the Indians which inhabit Demerara, to which I shall
+                           refer the readers for information.</p>
+                        
+                        
+                        <p>It was my intention to speak before this of the different groups of mountains, which
+                           we have passed in our route, but as particular interest is attached to the spot which
+                           we have reached and which obliges us to make a halt and to recall bygone days; I
+                           shall repair this omission and give now a connected view of the most distinguished
+                           branches of the whole system which <span class="person-name" data-id="pers.humboldt">Humboldt</span> has called the System of Parime.</p>
+                        
+                        
+                        <p><strong>I.</strong> The base of the mountain-barrier, which separates the plains
+                           of the lower <span class="place-name" data-id="river.orinoco">Orinoco</span> from those of the
+                           <span class="place-name" data-id="river.negro">Rio Negro</span>, extends from the 3rd to the
+                           8th parallel of N. Lat and between the 66th and 68th Meridian (counted west from
+                           Greenwich). Its general direction is westward which course is likewise kept by its
+                           lateral branches; from the mouth of the Apure to the delta of the <span class="place-name" data-id="river.orinoco">Orinoco</span>, the distance of the ridge from the
+                           banks of the river is generally 10 to 14 miles; some detached groups approach however
+                           its very banks and form the rapids of Tomo, the Boca del Infierno and the narrow
+                           passage at St. Thomas, from which the town has been named Angostura.</p>
+                        
+                        
+                        <p><strong>1.</strong> The most northern branch of this group is the one which
+                           extends from the Rio Arui (7° 50’) to Angostura and from thence towards the Rio
+                           Carony and the sources of the Imataca (62° merid).</p>
+                        
+                        
+                        <p><strong>2.</strong> Another group rises from the basin of the Rio Caura, where
+                           they form the rapids of Mura; they stretch to the springs of the Rio Cuchivero and
+                           encompass by a detached branch Encaramada.</p>
+                        
+                        
+                        <p><strong>3.</strong> The next are the Chaviripe mountains (7° 10’), which send off
+                           a branch to the southward (6° 20’ to 6° 40’) and being connected with the Corozal
+                           and
+                           Amoco mountains, this group joins lastly the high ridge of the Matacuna
+                           mountains.</p>
+                        
+                        
+                        <p><strong>4.</strong> The Baraguan forms the narrow passage of the <span class="place-name" data-id="river.orinoco">Orinoco</span> (7° 5’) which has received its name
+                           from this mountain-chain (Angostura del Baraguan). It takes afterwards its direction
+                           towards the mountains which separate the sources of the Rio Caure from those of the
+                           Ventuari.</p>
+                        
+                        
+                        <p><strong>5.</strong> At latitude 6° 25’ rise the Carichana mountains, of wild
+                           appearance but interspersed with rich pasture grounds.</p>
+                        
+                        
+                        <p><strong>6.</strong> The western bank of the <span class="place-name" data-id="river.orinoco">Orinoco</span>, which has been mostly level, distinguishes itself by the
+                           Peak of Uniana which rises from a plain to the height of more than 3000 feet (6°
+                           42’); the dyke which forms the Cataract of Apures, diverges from the Peak of Uniana
+                           and rises on the eastern shore to a group, which approaches the Cerro Cunuri (5° 35’
+                           to 5° 40’).</p>
+                        
+                        
+                        <p><span class="footnote" id="footnote-1"><sup>*</sup>All the parallels are northern and the
+                              Meridians west from Greenwich, where the contrary is not observed.</span></p>
+                        
+                        </div>
+                     </div>
+               </div>
+            </main>
+         </div>
+      </div>
+      <footer class="text-center">
+         <p>2023 Schomburgk Digital Edition Project</p>
+      </footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script><script src="js/main.js"></script></body>
+</html>
