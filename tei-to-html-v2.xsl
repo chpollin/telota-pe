@@ -23,7 +23,7 @@
                 <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <title>
-                    <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                    <xsl:value-of select="normalize-space(tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title)"/>
                 </title>
                 <!-- Metadata Improvements -->
                 <meta name="description" content="Digital Edition of Schomburgk's Travels"/>
@@ -109,25 +109,46 @@
                                         <!-- Index of Places -->
                                         <div class="tab-pane fade" id="places" role="tabpanel" aria-labelledby="places-tab">
                                             <ul class="list-unstyled mt-2">
-                                                <xsl:apply-templates select="tei:listPlace/tei:place" mode="index-place"/>
+                                                <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace/tei:place" mode="index-place"/>
                                             </ul>
                                         </div>
                                         <!-- Index of Flora -->
                                         <div class="tab-pane fade" id="flora" role="tabpanel" aria-labelledby="flora-tab">
                                             <ul class="list-unstyled mt-2">
-                                                <xsl:apply-templates select="distinct-values(//tei:name[@type='flora']/normalize-space(.))" mode="index-flora"/>
+                                                <xsl:for-each select="distinct-values(//tei:name[@type='flora']/normalize-space(.))">
+                                                    <li>
+                                                        <a href="#flora" class="index-link" data-type="flora">
+                                                            <i class="bi bi-flower1"></i>
+                                                            <xsl:value-of select="."/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
                                             </ul>
                                         </div>
                                         <!-- Index of Fauna -->
                                         <div class="tab-pane fade" id="fauna" role="tabpanel" aria-labelledby="fauna-tab">
                                             <ul class="list-unstyled mt-2">
-                                                <xsl:apply-templates select="distinct-values(//tei:name[@type='fauna']/normalize-space(.))" mode="index-fauna"/>
+                                                <xsl:for-each select="distinct-values(//tei:name[@type='fauna']/normalize-space(.))">
+                                                    <li>
+                                                        <a href="#fauna" class="index-link" data-type="fauna">
+                                                            <i class="bi bi-bug-fill"></i>
+                                                            <xsl:value-of select="."/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
                                             </ul>
                                         </div>
                                         <!-- Index of Zoological Names -->
                                         <div class="tab-pane fade" id="zoological" role="tabpanel" aria-labelledby="zoological-tab">
                                             <ul class="list-unstyled mt-2">
-                                                <xsl:apply-templates select="distinct-values(//tei:name[@type='zoological']/normalize-space(.))" mode="index-zoological"/>
+                                                <xsl:for-each select="distinct-values(//tei:name[@type='zoological']/normalize-space(.))">
+                                                    <li>
+                                                        <a href="#zoological" class="index-link" data-type="zoological">
+                                                            <i class="bi bi-book-half"></i>
+                                                            <xsl:value-of select="."/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
                                             </ul>
                                         </div>
                                     </div>
@@ -147,13 +168,19 @@
                                 <!-- Person Entries -->
                                 <xsl:apply-templates select="tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson/tei:person" mode="person-entry"/>
                                 <!-- Place Entries -->
-                                <xsl:apply-templates select="tei:listPlace/tei:place" mode="place-entry"/>
+                                <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace/tei:place" mode="place-entry"/>
                                 <!-- Flora Entries -->
-                                <xsl:apply-templates select="distinct-values(//tei:name[@type='flora']/normalize-space(.))" mode="flora-entry"/>
+                                <xsl:for-each select="distinct-values(//tei:name[@type='flora']/normalize-space(.))">
+                                    <xsl:apply-templates select="." mode="flora-entry"/>
+                                </xsl:for-each>
                                 <!-- Fauna Entries -->
-                                <xsl:apply-templates select="distinct-values(//tei:name[@type='fauna']/normalize-space(.))" mode="fauna-entry"/>
+                                <xsl:for-each select="distinct-values(//tei:name[@type='fauna']/normalize-space(.))">
+                                    <xsl:apply-templates select="." mode="fauna-entry"/>
+                                </xsl:for-each>
                                 <!-- Zoological Entries -->
-                                <xsl:apply-templates select="distinct-values(//tei:name[@type='zoological']/normalize-space(.))" mode="zoological-entry"/>
+                                <xsl:for-each select="distinct-values(//tei:name[@type='zoological']/normalize-space(.))">
+                                    <xsl:apply-templates select="." mode="zoological-entry"/>
+                                </xsl:for-each>
                             </div>
                         </main>
                     </div>
@@ -247,7 +274,7 @@
         <li>
             <a href="#person-{@xml:id}" class="index-link" data-type="person">
                 <i class="bi bi-person-fill"></i>
-                <xsl:value-of select="tei:persName"/>
+                <xsl:value-of select="normalize-space(tei:persName)"/>
             </a>
         </li>
     </xsl:template>
@@ -257,40 +284,7 @@
         <li>
             <a href="#place-{@xml:id}" class="index-link" data-type="place">
                 <i class="bi bi-geo-alt-fill"></i>
-                <xsl:value-of select="tei:placeName"/>
-            </a>
-        </li>
-    </xsl:template>
-
-    <!-- Template for Index of Flora -->
-    <xsl:template match="*" mode="index-flora">
-        <xsl:param name="name" select="."/>
-        <li>
-            <a href="#flora-{generate-id()}" class="index-link" data-type="flora">
-                <i class="bi bi-flower1"></i>
-                <xsl:value-of select="$name"/>
-            </a>
-        </li>
-    </xsl:template>
-
-    <!-- Template for Index of Fauna -->
-    <xsl:template match="*" mode="index-fauna">
-        <xsl:param name="name" select="."/>
-        <li>
-            <a href="#fauna-{generate-id()}" class="index-link" data-type="fauna">
-                <i class="bi bi-bug-fill"></i>
-                <xsl:value-of select="$name"/>
-            </a>
-        </li>
-    </xsl:template>
-
-    <!-- Template for Index of Zoological Names -->
-    <xsl:template match="*" mode="index-zoological">
-        <xsl:param name="name" select="."/>
-        <li>
-            <a href="#zoological-{generate-id()}" class="index-link" data-type="zoological">
-                <i class="bi bi-book-half"></i>
-                <xsl:value-of select="$name"/>
+                <xsl:value-of select="normalize-space(tei:placeName)"/>
             </a>
         </li>
     </xsl:template>
@@ -325,7 +319,16 @@
 
     <!-- Transform person names -->
     <xsl:template match="tei:persName">
-        <xsl:variable name="person-id" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="person-id">
+            <xsl:choose>
+                <xsl:when test="@ref">
+                    <xsl:value-of select="substring-after(@ref, '#')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="generate-id()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:variable name="person" select="key('person-by-id', $person-id)"/>
         <a href="#person-{$person-id}" class="person-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="{normalize-space($person/tei:note)}">
             <xsl:apply-templates/>
@@ -334,26 +337,27 @@
 
     <!-- Transform place names -->
     <xsl:template match="tei:placeName">
-        <xsl:variable name="place-id" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="place-id">
+            <xsl:choose>
+                <xsl:when test="@ref">
+                    <xsl:value-of select="substring-after(@ref, '#')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="generate-id()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:variable name="place" select="key('place-by-id', $place-id)"/>
-        <xsl:choose>
-            <xsl:when test="$place">
-                <a href="#place-{$place-id}" class="place-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="{normalize-space($place/tei:note)}">
-                    <xsl:apply-templates/>
-                </a>
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="place-name">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:otherwise>
-        </xsl:choose>
+        <a href="#place-{$place-id}" class="place-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="{normalize-space($place/tei:note)}">
+            <xsl:apply-templates/>
+        </a>
     </xsl:template>
 
     <!-- Transform flora names -->
     <xsl:template match="tei:name[@type = 'flora']">
         <xsl:variable name="flora-name" select="normalize-space(.)"/>
-        <a href="#flora-{generate-id()}" class="flora-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Flora">
+        <xsl:variable name="flora-id" select="concat('flora-', generate-id(.))"/>
+        <a href="#{$flora-id}" class="flora-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Flora">
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
@@ -361,7 +365,8 @@
     <!-- Transform fauna names -->
     <xsl:template match="tei:name[@type = 'fauna']">
         <xsl:variable name="fauna-name" select="normalize-space(.)"/>
-        <a href="#fauna-{generate-id()}" class="fauna-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Fauna">
+        <xsl:variable name="fauna-id" select="concat('fauna-', generate-id(.))"/>
+        <a href="#{$fauna-id}" class="fauna-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Fauna">
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
@@ -369,7 +374,8 @@
     <!-- Transform zoological names -->
     <xsl:template match="tei:name[@type = 'zoological']">
         <xsl:variable name="zoological-name" select="normalize-space(.)"/>
-        <a href="#zoological-{generate-id()}" class="zoological-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Zoological Name">
+        <xsl:variable name="zoological-id" select="concat('zoological-', generate-id(.))"/>
+        <a href="#{$zoological-id}" class="zoological-name entity-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Zoological Name">
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
@@ -442,7 +448,7 @@
     <xsl:template match="tei:person" mode="person-entry">
         <div id="person-{@xml:id}" class="person-entry card mb-3">
             <div class="card-header">
-                <h3 class="card-title"><i class="bi bi-person-fill"></i> <xsl:value-of select="tei:persName"/></h3>
+                <h3 class="card-title"><i class="bi bi-person-fill"></i> <xsl:value-of select="normalize-space(tei:persName)"/></h3>
             </div>
             <div class="card-body">
                 <xsl:if test="tei:birth/@when">
@@ -465,7 +471,7 @@
     <xsl:template match="tei:place" mode="place-entry">
         <div id="place-{@xml:id}" class="place-entry card mb-3">
             <div class="card-header">
-                <h3 class="card-title"><i class="bi bi-geo-alt-fill"></i> <xsl:value-of select="tei:placeName"/></h3>
+                <h3 class="card-title"><i class="bi bi-geo-alt-fill"></i> <xsl:value-of select="normalize-space(tei:placeName)"/></h3>
             </div>
             <div class="card-body">
                 <xsl:if test="tei:location/tei:geo">
@@ -479,11 +485,10 @@
     </xsl:template>
 
     <!-- Transform flora entries -->
-    <xsl:template match="*" mode="flora-entry">
-        <xsl:param name="name" select="."/>
-        <div id="flora-{generate-id()}" class="flora-entry card mb-3">
+    <xsl:template match="." mode="flora-entry">
+        <div id="flora" class="flora-entry card mb-3">
             <div class="card-header">
-                <h3 class="card-title"><i class="bi bi-flower1"></i> <xsl:value-of select="$name"/></h3>
+                <h3 class="card-title"><i class="bi bi-flower1"></i> <xsl:value-of select="."/></h3>
             </div>
             <div class="card-body">
                 <p>No additional information available.</p>
@@ -492,11 +497,10 @@
     </xsl:template>
 
     <!-- Transform fauna entries -->
-    <xsl:template match="*" mode="fauna-entry">
-        <xsl:param name="name" select="."/>
-        <div id="fauna-{generate-id()}" class="fauna-entry card mb-3">
+    <xsl:template match="." mode="fauna-entry">
+        <div id="fauna" class="fauna-entry card mb-3">
             <div class="card-header">
-                <h3 class="card-title"><i class="bi bi-bug-fill"></i> <xsl:value-of select="$name"/></h3>
+                <h3 class="card-title"><i class="bi bi-bug-fill"></i> <xsl:value-of select="."/></h3>
             </div>
             <div class="card-body">
                 <p>No additional information available.</p>
@@ -505,11 +509,10 @@
     </xsl:template>
 
     <!-- Transform zoological entries -->
-    <xsl:template match="*" mode="zoological-entry">
-        <xsl:param name="name" select="."/>
-        <div id="zoological-{generate-id()}" class="zoological-entry card mb-3">
+    <xsl:template match="." mode="zoological-entry">
+        <div id="zoological" class="zoological-entry card mb-3">
             <div class="card-header">
-                <h3 class="card-title"><i class="bi bi-book-half"></i> <xsl:value-of select="$name"/></h3>
+                <h3 class="card-title"><i class="bi bi-book-half"></i> <xsl:value-of select="."/></h3>
             </div>
             <div class="card-body">
                 <p>Scientific name of species.</p>
