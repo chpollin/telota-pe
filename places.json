@@ -1,5 +1,121 @@
-
-            {
-            "places": {}
-            }
-        
+{
+    "places": {
+      "place.colombia": {
+        "name": "Colombia",
+        "note": "Country in South America."
+      },
+      "place.brazil": {
+        "name": "Brazil",
+        "note": "Country in South America, known for its Amazon rainforest."
+      },
+      "place.esmeralda": {
+        "name": "Esmeralda",
+        "note": "A location visited by Humboldt; near the upper Orinoco River."
+      },
+      "place.south_america": {
+        "name": "South America",
+        "note": "A continent in the Western Hemisphere."
+      },
+      "place.west_indies": {
+        "name": "West Indies",
+        "note": "A region of the North Atlantic Ocean and the Caribbean."
+      },
+      "place.demerara": {
+        "name": "Demerara",
+        "note": "Historical region in Guyana."
+      },
+      "place.buenos_aires": {
+        "name": "Buenos Aires",
+        "note": "Capital city of Argentina."
+      },
+      "place.paraguay": {
+        "name": "Paraguay",
+        "note": "Landlocked country in South America."
+      },
+      "place.tierra_del_fuego": {
+        "name": "Tierra del Fuego",
+        "note": "An archipelago off the southernmost tip of the South American mainland."
+      },
+      "place.bolivia": {
+        "name": "Bolivia",
+        "note": "Country in central South America."
+      },
+      "place.ecuador": {
+        "name": "Ecuador",
+        "note": "Country in northwestern South America."
+      },
+      "place.venezuela": {
+        "name": "Venezuela",
+        "note": "Country on the northern coast of South America."
+      },
+      "place.chile": {
+        "name": "Chile",
+        "note": "Long, narrow country stretching along South America's western edge."
+      },
+      "place.suriname": {
+        "name": "Suriname",
+        "note": "Country on the northeastern Atlantic coast of South America."
+      },
+      "place.orinoco": {
+        "name": "Orinoco River",
+        "note": "One of the longest rivers in South America, flowing through Venezuela."
+      },
+      "place.amazon": {
+        "name": "Amazon River",
+        "note": "The largest river by discharge volume of water in the world, located in South America."
+      },
+      "place.french_guiana": {
+        "name": "French Guiana",
+        "note": "An overseas department of France on the northeast coast of South America."
+      },
+      "place.demerary": {
+        "name": "Demerary",
+        "note": "Alternative spelling for Demerara, historical region in Guyana."
+      },
+      "place.guyana": {
+        "name": "Guyana",
+        "note": "Country on South America’s North Atlantic coast."
+      },
+      "place.georgetown": {
+        "name": "Georgetown",
+        "note": "Capital city of Guyana."
+      },
+      "place.stabroek": {
+        "name": "Stabroek",
+        "note": "Former name of Georgetown, the capital of Guyana."
+      },
+      "place.paramaribo": {
+        "name": "Paramaribo",
+        "note": "Capital city of Suriname."
+      },
+      "place.cayenne": {
+        "name": "Cayenne",
+        "note": "Capital city of French Guiana."
+      },
+      "place.kaieteur_falls": {
+        "name": "Kaieteur Falls",
+        "note": "A high-volume waterfall on the Potaro River in central Guyana."
+      },
+      "place.essequibo": {
+        "name": "Essequibo River",
+        "note": "The largest river in Guyana."
+      },
+      "place.berbice": {
+        "name": "Berbice",
+        "note": "Historical region in Guyana."
+      },
+      "place.mazaruni": {
+        "name": "Mazaruni River",
+        "note": "A tributary of the Essequibo River in Guyana."
+      },
+      "place.rupununi": {
+        "name": "Rupununi",
+        "note": "Region in Guyana known for its savannahs."
+      },
+      "place.mt_roraima": {
+        "name": "Mount Roraima",
+        "note": "The highest of the Pakaraima chain of tepui plateaus in South America."
+      }
+    }
+  }
+  

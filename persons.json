@@ -1,5 +1,145 @@
-
-            {
-            "persons": {}
-            }
-        
+{
+    "persons": {
+      "pers.columbus": {
+        "name": "Christopher Columbus",
+        "birth": "1451",
+        "death": "1506",
+        "occupation": "Explorer",
+        "note": "Italian explorer who completed four voyages across the Atlantic Ocean, opening the way for widespread European exploration and colonization of the Americas."
+      },
+      "pers.humboldt": {
+        "name": "Alexander von Humboldt",
+        "birth": "1769",
+        "death": "1859",
+        "occupation": "Naturalist and Explorer",
+        "note": "Prussian polymath, geographer, naturalist, and explorer who made significant contributions to the fields of geography and natural sciences."
+      },
+      "pers.bonpland": {
+        "name": "Aimé Bonpland",
+        "birth": "1773",
+        "death": "1858",
+        "occupation": "Botanist and Explorer",
+        "note": "French botanist and explorer known for his collaboration with Humboldt during their expedition to the Americas."
+      },
+      "pers.aublet": {
+        "name": "Jean Baptiste Christophore Fusée Aublet",
+        "birth": "1720",
+        "death": "1778",
+        "occupation": "Botanist",
+        "note": "French botanist notable for his work in French Guiana and his publication 'Histoire des Plantes de la Guiane Françoise'."
+      },
+      "pers.boussingault": {
+        "name": "Jean-Baptiste Boussingault",
+        "birth": "1802",
+        "death": "1887",
+        "occupation": "Chemist and Agronomist",
+        "note": "French chemist who made significant contributions to agricultural chemistry and studied the nutrition of plants."
+      },
+      "pers.langsdorff": {
+        "name": "Georg Heinrich von Langsdorff",
+        "birth": "1774",
+        "death": "1852",
+        "occupation": "Naturalist and Explorer",
+        "note": "German naturalist and explorer who led expeditions in Brazil and contributed to the study of South American flora and fauna."
+      },
+      "pers.schomburgk": {
+        "name": "Robert Hermann Schomburgk",
+        "birth": "1804",
+        "death": "1865",
+        "occupation": "Explorer and Geographer",
+        "note": "German-born British explorer who conducted geographical and botanical studies in Guyana and mapped the boundaries of British Guiana."
+      },
+      "pers.stevenson": {
+        "name": "William B. Stevenson",
+        "birth": "Unknown",
+        "death": "Unknown",
+        "occupation": "Explorer",
+        "note": "An explorer known for his travels in South America during the early 19th century."
+      },
+      "pers.poeppig": {
+        "name": "Eduard Friedrich Poeppig",
+        "birth": "1798",
+        "death": "1868",
+        "occupation": "Naturalist and Explorer",
+        "note": "German botanist and zoologist who explored South America and contributed to the knowledge of its natural history."
+      },
+      "pers.weddell": {
+        "name": "Hugh Algernon Weddell",
+        "birth": "1819",
+        "death": "1877",
+        "occupation": "Botanist",
+        "note": "British-French botanist known for his studies of South American flora, particularly in the Andes."
+      },
+      "pers.dobrizhoffer": {
+        "name": "Martin Dobrizhoffer",
+        "birth": "1717",
+        "death": "1791",
+        "occupation": "Jesuit Missionary",
+        "note": "Austrian Jesuit missionary who worked among the indigenous peoples of South America and wrote about their cultures."
+      },
+      "pers.castelnau": {
+        "name": "Francis de Laporte de Castelnau",
+        "birth": "1810",
+        "death": "1880",
+        "occupation": "Naturalist and Explorer",
+        "note": "French naturalist known for his explorations in South America and contributions to entomology."
+      },
+      "pers.tschudi": {
+        "name": "Johann Jakob von Tschudi",
+        "birth": "1818",
+        "death": "1889",
+        "occupation": "Naturalist and Explorer",
+        "note": "Swiss naturalist and explorer who conducted extensive research in Peru and other parts of South America."
+      },
+      "pers.cuvier": {
+        "name": "Georges Cuvier",
+        "birth": "1769",
+        "death": "1832",
+        "occupation": "Naturalist and Zoologist",
+        "note": "French naturalist and zoologist, a major figure in natural sciences, known for establishing extinction as a fact."
+      },
+      "pers.linnaeus": {
+        "name": "Carl Linnaeus",
+        "birth": "1707",
+        "death": "1778",
+        "occupation": "Botanist, Physician, and Zoologist",
+        "note": "Swedish botanist who formalized binomial nomenclature, the modern system of naming organisms."
+      },
+      "pers.darwin": {
+        "name": "Charles Darwin",
+        "birth": "1809",
+        "death": "1882",
+        "occupation": "Naturalist, Geologist, and Biologist",
+        "note": "English naturalist who developed the theory of evolution by natural selection."
+      },
+      "pers.wallace": {
+        "name": "Alfred Russel Wallace",
+        "birth": "1823",
+        "death": "1913",
+        "occupation": "Naturalist, Explorer, Geographer, Anthropologist, and Biologist",
+        "note": "British naturalist known for independently conceiving the theory of evolution through natural selection."
+      },
+      "pers.martius": {
+        "name": "Carl Friedrich Philipp von Martius",
+        "birth": "1794",
+        "death": "1868",
+        "occupation": "Botanist and Explorer",
+        "note": "German botanist and explorer who studied Brazilian flora."
+      },
+      "pers.spruce": {
+        "name": "Richard Spruce",
+        "birth": "1817",
+        "death": "1893",
+        "occupation": "Botanist and Explorer",
+        "note": "English botanist known for his exploration of the Amazon and his studies of bryophytes."
+      },
+      "pers.bates": {
+        "name": "Henry Walter Bates",
+        "birth": "1825",
+        "death": "1892",
+        "occupation": "Naturalist and Explorer",
+        "note": "English naturalist who explored the Amazon and developed the concept of Batesian mimicry."
+      }
+    }
+  }
+  
