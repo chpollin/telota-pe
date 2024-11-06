@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Philosophische Bemerkungen</title>
+               <author>Unknown</author>
+               <editor>Eva Maria Engelen</editor>
+            </titleStmt>
+            <publicationStmt>
+               <p>Transcription of manuscript KG21III6b69, pages 563-568</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                 
+                  <msIdentifier>
+                     <repository>test</repository>
+                     <idno>KG21III6b69</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <p>Manuscript pages 563-568</p>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+               <p>The following features have been preserved:
+                  - Original pagination
+                  - Editorial comments and alternative readings
+                  - Footnotes
+                  - Text emphasis (underlining, italics, bold)
+                  - Editorial additions marked with angle brackets
+                  - Original quotation marks
+                  - Cross-references
+               </p>
+               <correction>
+                  <p>Editorial corrections and alternative readings are marked with note elements</p>
+               </correction>
+               <hyphenation>
+                  <p>Original hyphenation has been preserved</p>
+               </hyphenation>
+            </editorialDecl>
+            <projectDesc>
+               <p>Transcription and encoding of philosophical manuscript notes</p>
+            </projectDesc>
+         </encodingDesc>
+         <revisionDesc>
+            <change when="2024-11-06" who="Eva Maria Engelen">Added editorial comments and alternative readings</change>
+         </revisionDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <div n="563-568" type="manuscript-section">
+            <div n="563">
+               <pb n="563"/>
+               <div type="note" subtype="philosophical">
+                  <head>
+                     <hi rend="italic">
+                        <hi rend="underline">
+                           <choice>
+                              <abbr>Bem</abbr>
+                              <expan>Bemerkung</expan>
+                           </choice>
+                        </hi>
+                     </hi>
+                     (<choice>
+                        <abbr>Gr</abbr>
+                        <expan>Grundlagen</expan>
+                     </choice>)
+                  </head>
+                  
+                  <p>Die Bedeutung einer Zeichenverbindung ist der Gegenstand, über den im Satz gesprochen wird (dessen Vorstellung im Zuhörer erweckt werden soll und dem Redner vorschwebt).</p>
+                  
+                  <p>Die wahre Bedeutung der Zeichen<app>
+                     <lem>verbindungen</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">Verwendungen</rdg>
+                  </app> der Form (<app>
+                     <lem>ι</lem>
+                     <rdg type="editorial" resp="Eva-Maria">umgedrehtes Iota</rdg>
+                  </app><hi rend="italic">x</hi>) (φ<hi rend="italic">x</hi>):</p>
+                  
+                  <list type="ordered">
+                     <item n="1">Nach <persName>Frege</persName> <supplied>ist es</supplied> der betreffenden Gegenstand (widerlegt durch das <hi rend="italic">Scott</hi>-Argument).</item>
+                     
+                     <item n="2">Nach <persName>Russell</persName> <supplied>ist es</supplied> nichts (es ist eine zweckmäßige <q rend="double"><foreign xml:lang="fr">façon de parler</foreign></q>, aber, was zweckmäßig und was grammatisch wie ein Eigenname behandelt wird, bedeutet wahrscheinlich auch etwas und der fruchtbaren Aufgabe, diese zu finden, wird durch <supplied>die</supplied> Russellsche <q rend="double">Ausflucht</q> gerade ausgewichen).</item>
+                     
+                     <item n="3">Es könnte den Begriff φ bedeuten. Aber was ist dann der Bedeutungsunterschied von <q rend="double">Sohn des <hi rend="italic">A</hi></q> und <q rend="double">der Sohn des <hi rend="italic">A</hi></q>? Außerdem hat man das Gefühl, dass es etwas <q rend="double">Wirklich<supplied>es</supplied></q> bedeutet (das ist der Fregesche Sinn).</item>
+                     
+                     <item n="4">Es bedeutet eine Seite (oder einen Teil) des Gegenstandes (<persName>Scott</persName> ist nicht nur der Autor des <title><hi rend="italic">Wav<supplied>erly</supplied></hi></title>).<note n="1" type="footnote">
+                        <q rend="double"><hi rend="italic">Napol<supplied>eon</supplied></hi>, der die Gefahr für seine Flanke erkannte</q> ist gewissermaßen ein Anderer. <note type="editorial" resp="E.-M. E.">andere Lesart für „seine Flanke": <supplied>die</supplied> Seitenflanke"</note>
+                     </note> Es bedeutet <persName>Scott</persName> insofern er der <pb n="564"/> Autor des <title><hi rend="italic">Wav<supplied>erly</supplied></hi></title> ist.</item>
+                     
+                     <item n="5" rend="underline-double"><seg type="solution" rend="underline">Richtige Lösung</seg> Es bedeutet <q rend="double">einen Ort im logischen Raum</q><note type="editorial" resp="Eva Maria Engelen Drive-Benutzer">Vgl. ›Max VII‹, Ms.-S. 472.</note><note n="2" type="footnote">Oder besser: <q rend="double">Das, was sich an diesem Ort befindet</q>, das ist aber nicht der ganze <hi rend="italic">Scott</hi>, sondern ein Teil.</note>, das heißt, etwas, was sich zur abstrakten Begriffswelt so verhält, wie der Raum (und die Punkte) zur <del>Körper</del> Welt der sinnlichen Begriffe. Die Dinge überdecken jede<supplied>s</supplied> einen bestimmten Teil dieses logischen Raums. Diese Gegenstände (<app>
+                        <lem>Mat<supplied>hematik</supplied></lem>
+                        <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">mat<supplied>hematischer</supplied></rdg>
+                     </app> und logischer Raum und ihre Punkte) bilden eine 3te Art von <hi rend="italic">Entitäten</hi> zwischen Dingen und Begriffen.</item>
+                  </list>
+                  
+                  <p>Der logische Raum sieht verschieden aus, je nachdem, was für einen <q rend="double">Möglichkeitsbegriff</q> man zugrunde legt. Der Sinn verhält sich zur Bedeutung in diesem Sinn wie die <hi rend="italic">D<supplied>e</supplied>f<supplied>inition</supplied></hi> eines Punktes zum Punkt. Diese Bedeutung liegt also was <q rend="double">Vielfältigkeit</q> oder <q rend="double">Grad der Identifizierung</q> oder Nähe zum Ding und Fern<supplied>e</supplied> von der Erscheinung betrifft, in der <pb n="565"/> Mitte zwischen Sinn und Bedeutung (andere, vielleicht richtige Lösung <hi rend="italic">vgl</hi>. <hi rend="italic">p</hi>. 592).</p>
+               </div>
+               <div type="note" subtype="philosophical">
+                  <head>
+                     <hi rend="italic">
+                        <hi rend="underline">
+                           <choice>
+                              <abbr>Bem</abbr>
+                              <expan>Bemerkung</expan>
+                           </choice>
+                        </hi>
+                     </hi>
+                     (<choice>
+                        <abbr>Phil</abbr>
+                        <expan>Philosophie</expan>
+                     </choice>)
+                  </head>
+                  
+                  <p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige <q rend="double">Gesichtspunkt</q> fehlte. Dieser ist für Geographie <hi rend="italic">Prod<supplied>uktion</supplied></hi> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache <q rend="double">der</q> genau richtige Sinn (die richtige Übersetzung)<note n="3" type="footnote">Und auch in der Literatur.</note>, für <hi rend="italic">Biologie</hi> <supplied>die</supplied> <hi rend="italic">D<supplied>e</supplied>f<supplied>inition</supplied></hi> von Tier<supplied>en</supplied> und Pflanze<supplied>n</supplied> und <supplied>das</supplied> Wiedererkennen dieser selben<unclear>?</unclear> Ideen in allen ihr<supplied>en</supplied> (<foreign xml:lang="la">a priori</foreign> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<note n="4" type="footnote">Das heißt Theorie.</note> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<note n="5" type="footnote">Das heißt die Erscheinung des Objekts.</note>, während das in der <hi rend="italic">Mat<supplied>hematik</supplied></hi> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
+                  
+                  <p>Der Grund <pb n="566"/> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <hi rend="underline">es in jeder Sache eineindeutig definiert <q rend="double">Richtiges</q> gibt</hi>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<supplied>m</supplied> Sinn und Bedeutung verleiht. <app>
+                     <lem>Werden</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">wird</rdg>
+                  </app> erkannt, indem man das Wirken einer absichtsvollen <supplied>Kraft</supplied> (von menschlicher Vernunft verschieden<supplied>en</supplied>) und die materiellen Gesetze nur als Mittel <app>
+                     <lem>besitzende</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">besetzende</rdg>
+                  </app> Kraft sieht.</p>
+                  
+                  <p>In Folge des Mangels dieser Einsicht wir der ganze Mittelschulunterricht <q rend="double">sinnlos</q> und Zeitvergeudung. <supplied>Ein</supplied> privatist<supplied>isches</supplied> Studium könnte wahrscheinlich zur Prüfung in einem Zehntel der Zeit vorbereiten? -- <hi rend="italic">Fra<supplied>ge</supplied></hi>: Kann der vollkommen objektiv (frei von Sünde) urteilende menschliche Verstand diese Einsicht ohne Unterricht (oder <hi rend="italic">parapsychol<supplied>ogische</supplied></hi> Erfahrungen) gewinnen? <pb n="567"/></p>
+                  
+                  <p>Insbesondere zum Beispiel zur <title><hi rend="italic">Aeneis</hi></title><note type="editorial" resp="Eva Maria Engelen Drive-Benutzer">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</note> <supplied>gibt es</supplied> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <supplied>ist</supplied>, sondern <supplied>sie</supplied> von vornherein als <q rend="double">Sage</q> behandelt <supplied>wird</supplied> und sogar als unmögliche Lüge (<app>
+                     <lem>handelt</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">Handel</rdg>
+                  </app> von Göttern <hi rend="italic">etc</hi>.), daher <supplied>ist</supplied> die Einstellung <del>dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
+               </div>
+               <div type="note" subtype="philosophical">
+                  <head>
+                     <hi rend="italic">
+                        <hi rend="underline">
+                           <choice>
+                              <abbr>Bem</abbr>
+                              <expan>Bemerkung</expan>
+                           </choice>
+                        </hi>
+                     </hi>
+                     (<choice>
+                        <abbr>Phil</abbr>
+                        <expan>Philosophie</expan>
+                     </choice>)
+                  </head>
+                  
+                  <p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige <q rend="double">Gesichtspunkt</q> fehlte. Dieser ist für Geographie <hi rend="italic">Prod<supplied>uktion</supplied></hi> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache <q rend="double">der</q> genau richtige Sinn (die richtige Übersetzung)<note n="3" type="footnote">Und auch in der Literatur.</note>, für <hi rend="italic">Biologie</hi> <supplied>die</supplied> <hi rend="italic">D<supplied>e</supplied>f<supplied>inition</supplied></hi> von Tier<supplied>en</supplied> und Pflanze<supplied>n</supplied> und <supplied>das</supplied> Wiedererkennen dieser selben<unclear>?</unclear> Ideen in allen ihr<supplied>en</supplied> (<foreign xml:lang="la">a priori</foreign> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<note n="4" type="footnote">Das heißt Theorie.</note> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<note n="5" type="footnote">Das heißt die Erscheinung des Objekts.</note>, während das in der <hi rend="italic">Mat<supplied>hematik</supplied></hi> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
+                  
+                  <p>Der Grund <pb n="566"/> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <hi rend="underline">es in jeder Sache eineindeutig definiert <q rend="double">Richtiges</q> gibt</hi>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<supplied>m</supplied> Sinn und Bedeutung verleiht. <app>
+                     <lem>Werden</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">wird</rdg>
+                  </app> erkannt, indem man das Wirken einer absichtsvollen <supplied>Kraft</supplied> (von menschlicher Vernunft verschieden<supplied>en</supplied>) und die materiellen Gesetze nur als Mittel <app>
+                     <lem>besitzende</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">besetzende</rdg>
+                  </app> Kraft sieht.</p>
+                  
+                  <p>In Folge des Mangels dieser Einsicht wir der ganze Mittelschulunterricht <q rend="double">sinnlos</q> und Zeitvergeudung. <supplied>Ein</supplied> privatist<supplied>isches</supplied> Studium könnte wahrscheinlich zur Prüfung in einem Zehntel der Zeit vorbereiten? -- <hi rend="italic">Fra<supplied>ge</supplied></hi>: Kann der vollkommen objektiv (frei von Sünde) urteilende menschliche Verstand diese Einsicht ohne Unterricht (oder <hi rend="italic">parapsychol<supplied>ogische</supplied></hi> Erfahrungen) gewinnen? <pb n="567"/></p>
+                  
+                  <p>Insbesondere zum Beispiel zur <title><hi rend="italic">Aeneis</hi></title><note type="editorial" resp="Eva Maria Engelen Drive-Benutzer">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</note> <supplied>gibt es</supplied> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <supplied>ist</supplied>, sondern <supplied>sie</supplied> von vornherein als <q rend="double">Sage</q> behandelt <supplied>wird</supplied> und sogar als unmögliche Lüge (<app>
+                     <lem>handelt</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">Handel</rdg>
+                  </app> von Göttern <hi rend="italic">etc</hi>.), daher <supplied>ist</supplied> die Einstellung <del>dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
+               </div>
+               <div type="note" subtype="philosophical">
+                  <head>
+                     <hi rend="italic">
+                        <hi rend="underline">
+                           <choice>
+                              <abbr>Bem</abbr>
+                              <expan>Bemerkung</expan>
+                           </choice>
+                        </hi>
+                     </hi>
+                     (<choice>
+                        <abbr>Phil</abbr>
+                        <expan>Philosophie</expan>
+                     </choice>)
+                  </head>
+                  
+                  <p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige <q rend="double">Gesichtspunkt</q> fehlte. Dieser ist für Geographie <hi rend="italic">Prod<supplied>uktion</supplied></hi> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache <q rend="double">der</q> genau richtige Sinn (die richtige Übersetzung)<note n="3" type="footnote">Und auch in der Literatur.</note>, für <hi rend="italic">Biologie</hi> <supplied>die</supplied> <hi rend="italic">D<supplied>e</supplied>f<supplied>inition</supplied></hi> von Tier<supplied>en</supplied> und Pflanze<supplied>n</supplied> und <supplied>das</supplied> Wiedererkennen dieser selben<unclear>?</unclear> Ideen in allen ihr<supplied>en</supplied> (<foreign xml:lang="la">a priori</foreign> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<note n="4" type="footnote">Das heißt Theorie.</note> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<note n="5" type="footnote">Das heißt die Erscheinung des Objekts.</note>, während das in der <hi rend="italic">Mat<supplied>hematik</supplied></hi> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
+                  
+                  <p>Der Grund <pb n="566"/> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <hi rend="underline">es in jeder Sache eineindeutig definiert <q rend="double">Richtiges</q> gibt</hi>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<supplied>m</supplied> Sinn und Bedeutung verleiht. <app>
+                     <lem>Werden</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">wird</rdg>
+                  </app> erkannt, indem man das Wirken einer absichtsvollen <supplied>Kraft</supplied> (von menschlicher Vernunft verschieden<supplied>en</supplied>) und die materiellen Gesetze nur als Mittel <app>
+                     <lem>besitzende</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">besetzende</rdg>
+                  </app> Kraft sieht.</p>
+                  
+                  <p>In Folge des Mangels dieser Einsicht wir der ganze Mittelschulunterricht <q rend="double">sinnlos</q> und Zeitvergeudung. <supplied>Ein</supplied> privatist<supplied>isches</supplied> Studium könnte wahrscheinlich zur Prüfung in einem Zehntel der Zeit vorbereiten? -- <hi rend="italic">Fra<supplied>ge</supplied></hi>: Kann der vollkommen objektiv (frei von Sünde) urteilende menschliche Verstand diese Einsicht ohne Unterricht (oder <hi rend="italic">parapsychol<supplied>ogische</supplied></hi> Erfahrungen) gewinnen? <pb n="567"/></p>
+                  
+                  <p>Insbesondere zum Beispiel zur <title><hi rend="italic">Aeneis</hi></title><note type="editorial" resp="Eva Maria Engelen Drive-Benutzer">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</note> <supplied>gibt es</supplied> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <supplied>ist</supplied>, sondern <supplied>sie</supplied> von vornherein als <q rend="double">Sage</q> behandelt <supplied>wird</supplied> und sogar als unmögliche Lüge (<app>
+                     <lem>handelt</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">Handel</rdg>
+                  </app> von Göttern <hi rend="italic">etc</hi>.), daher <supplied>ist</supplied> die Einstellung <del>dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
+               </div>
+               <div type="note" subtype="philosophical">
+                  <head>
+                     <hi rend="italic">
+                        <hi rend="underline">
+                           <choice>
+                              <abbr>Bem</abbr>
+                              <expan>Bemerkung</expan>
+                           </choice>
+                        </hi>
+                     </hi>
+                     (<choice>
+                        <abbr>Phil</abbr>
+                        <expan>Philosophie</expan>
+                     </choice>)
+                  </head>
+                  
+                  <p>Das Verhalten der Menschen ist bedingt durch:</p>
+                  
+                  <list>
+                     <item n="1">die Theorie<supplied>n</supplied>, die sie haben. Diese <supplied>können</supplied>
+                        <list type="ordered" rend="letters">
+                           <item n="a">mehr oder weniger umfassend sein (d. h. <supplied>es kann</supplied> viel oder wenig daraus folgen);</item>
+                           <item n="b">mehr oder weniger <q rend="double">Verständnis</q> [Theorie] in sich haben<note n="6" type="footnote">Zum Beispiel ein Zauberbuch oder <q rend="double">Gefühl</q>.</note>;</item>
+                           <item n="c">mehr oder weniger richtig <supplied>sein</supplied>;</item>
+                           <item n="d">mehr ethisch oder mehr sachlich sein.</item>
+                        </list>
+                     </item>
+                  </list>
+                  
+                  <p>Die Gesamtheit dieser Eigenschaften charakterisiert den <q rend="double">Geist</q>, den jemand hat (oder von dem er <q rend="double">geführt</q> wird).</p>
+                  
+                  <p>2. kann die Reaktion auf dieselbe Theorie mehr oder weniger <q rend="double">vernünftig</q>, das heißt <pb n="568"/> richtig oder falsch sein.</p>
+               </div>
+               
+               <div type="note" subtype="philosophical">
+                  <head>
+                     <hi rend="italic">
+                        <choice>
+                           <abbr>Bem</abbr>
+                           <expan>Bemerkung</expan>
+                        </choice>
+                     </hi>
+                     (<choice>
+                        <abbr>Phil</abbr>
+                        <expan>Philosophie</expan>
+                     </choice>)
+                  </head>
+                  
+                  <p>Die Fehler, die man beim Anstreben eine Ziels macht, spiegeln sich in dem <app>
+                     <lem>Erreichten</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">Erreichen</rdg>
+                  </app> genau ab. Zum Beispiel beim Wohnung suchen. Fehler, dass sie das Wort führt, daher <supplied>ist die</supplied> Wohnung für sie gut, aber nicht für mich. Da aber die Beherrschung nur eine äußerliche und nur durch meine Schwäche (nicht ihre Energie) bedingt ist, so ist der Schaden für mich nur durch meine Schwäche bedingt.</p>
+                  
+                  <p>Außerdem hat ihre Ungeduld<note n="7" type="footnote">Das heißt, sie verlangt zu viel.</note> zur Folge, dass immer etwas für sie Ärgerlich<supplied>es</supplied> darin ist. Ärger <app>
+                     <lem>ist das</lem>
+                     <rdg type="alternative" resp="Eva Maria Engelen Drive-Benutzer">ist, dass</rdg>
+                  </app> durch ein Wissen, dass etwas (eine Kleinigkeit) <supplied>ist</supplied>, das ein gewiss<supplied>es</supplied> (nicht zu großes) Leiden verursacht oder Gut<supplied>es</supplied> wegnimmt. Verstärkt <supplied>wird das</supplied>, wenn durch menschliche Schuld oder Bosheit verursacht <supplied>ist</supplied> (Ärger ist also ein schwacher Zorn auf eine Sache, die Weltordnung oder einen Menschen); <foreign xml:lang="la">irascibilis passio</foreign> = solche, deren Kausation durch den <hi rend="italic">Intellect</hi> geht.</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
