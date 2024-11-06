@@ -22,21 +22,39 @@ class TEItoHTMLConverter:
         <html lang="de">
         <head>
             <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>%s</title>
             <link rel="stylesheet" href="styles.css">
         </head>
         <body>
             <div class="container">
-                <div class="facsimile">
+                <div class="facsimile" id="facsimile-panel">
                     <h3>Manuscript Images</h3>
+                    <div class="image-controls">
+                        <button onclick="zoomIn()">Zoom In</button>
+                        <button onclick="zoomOut()">Zoom Out</button>
+                        <button onclick="resetZoom()">Reset</button>
+                    </div>
                     %s
                 </div>
                 <div class="main-text">
                     <h1>%s</h1>
+                    <div class="text-controls">
+                        <input type="text" id="search" placeholder="Search text...">
+                        <button onclick="toggleNotes()">Toggle Notes</button>
+                    </div>
                     %s
                 </div>
                 <div class="apparatus">
                     <h3>Critical Apparatus</h3>
+                    <div class="apparatus-controls">
+                        <select id="apparatus-filter">
+                            <option value="all">All Notes</option>
+                            <option value="footnotes">Footnotes</option>
+                            <option value="editorial">Editorial</option>
+                            <option value="variants">Variants</option>
+                        </select>
+                    </div>
                     <div id="footnotes">
                         <h4>Footnotes</h4>
                         %s
@@ -53,40 +71,81 @@ class TEItoHTMLConverter:
             </div>
             <script>
                 document.addEventListener('DOMContentLoaded', function() {
-                    // Highlight text when clicking on apparatus entries
+                    // Enhanced image viewer functionality
+                    let scale = 1;
+                    window.zoomIn = function() {
+                        scale *= 1.2;
+                        updateZoom();
+                    };
+                    window.zoomOut = function() {
+                        scale /= 1.2;
+                        updateZoom();
+                    };
+                    window.resetZoom = function() {
+                        scale = 1;
+                        updateZoom();
+                    };
+                    function updateZoom() {
+                        document.querySelectorAll('.facsimile img').forEach(img => {
+                            img.style.transform = `scale(${scale})`;
+                        });
+                    }
+
+                    // Enhanced text highlighting
                     document.querySelectorAll('[data-target]').forEach(item => {
                         item.addEventListener('click', e => {
                             const targetId = e.currentTarget.getAttribute('data-target');
                             const targetElement = document.getElementById(targetId);
                             if (targetElement) {
+                                // Remove previous highlights
+                                document.querySelectorAll('.highlighted').forEach(el => {
+                                    el.classList.remove('highlighted');
+                                });
+                                // Add new highlight
+                                targetElement.classList.add('highlighted');
                                 targetElement.scrollIntoView({behavior: 'smooth', block: 'center'});
-                                targetElement.style.backgroundColor = '#ffeb3b';
-                                setTimeout(() => {
-                                    targetElement.style.backgroundColor = '';
-                                }, 2000);
                             }
                         });
                     });
 
-                    // Image zoom functionality
-                    document.querySelectorAll('.facsimile img').forEach(img => {
-                        img.addEventListener('click', e => {
-                            const viewer = document.createElement('div');
-                            viewer.className = 'image-viewer';
-                            viewer.innerHTML = `
-                                <div class="image-viewer-content">
-                                    <img src="${e.target.src}">
-                                    <button class="close-viewer">×</button>
-                                </div>
-                            `;
-                            document.body.appendChild(viewer);
-                            viewer.addEventListener('click', e => {
-                                if (e.target.classList.contains('image-viewer') || 
-                                    e.target.classList.contains('close-viewer')) {
-                                    viewer.remove();
-                                }
+                    // Apparatus filtering
+                    document.getElementById('apparatus-filter').addEventListener('change', function(e) {
+                        const filter = e.target.value;
+                        const sections = {
+                            'footnotes': document.getElementById('footnotes'),
+                            'editorial': document.getElementById('editorial-notes'),
+                            'variants': document.getElementById('apparatus-entries')
+                        };
+                        
+                        if (filter === 'all') {
+                            Object.values(sections).forEach(section => {
+                                section.style.display = 'block';
                             });
-                        });
+                        } else {
+                            Object.entries(sections).forEach(([key, section]) => {
+                                section.style.display = key === filter ? 'block' : 'none';
+                            });
+                        }
+                    });
+
+                    // Text search functionality
+                    const searchInput = document.getElementById('search');
+                    let searchTimeout;
+                    searchInput.addEventListener('input', function(e) {
+                        clearTimeout(searchTimeout);
+                        searchTimeout = setTimeout(() => {
+                            const searchText = e.target.value.toLowerCase();
+                            const content = document.querySelector('.main-text');
+                            if (!searchText) {
+                                // Reset highlights
+                                content.innerHTML = content.innerHTML.replace(/<mark>|<\/mark>/g, '');
+                                return;
+                            }
+                            
+                            const regex = new RegExp(searchText, 'gi');
+                            content.innerHTML = content.innerHTML.replace(/<mark>|<\/mark>/g, '');
+                            content.innerHTML = content.innerHTML.replace(regex, match => `<mark>${match}</mark>`);
+                        }, 300);
                     });
                 });
             </script>
@@ -195,7 +254,7 @@ class TEItoHTMLConverter:
     def process_facsimile(self, image_files: List[str]) -> str:
         return '\n'.join(
             f'<figure class="manuscript-page">'
-            f'<img src="{img}" alt="Manuscript page {i+1}">'
+            f'<img src="{img}" alt="Manuscript page {i+1}" class="zoomable-image">'
             f'<figcaption>Page {i+1}</figcaption>'
             f'</figure>'
             for i, img in enumerate(image_files)
@@ -210,17 +269,17 @@ class TEItoHTMLConverter:
         
         # Generate apparatus sections
         footnotes_html = '\n'.join(
-            f'<div id="{id}" class="footnote">{i+1}. {content}</div>'
+            f'<div id="{id}" class="footnote" data-page="{self.current_page}">{i+1}. {content}</div>'
             for i, (id, content) in enumerate(self.footnotes)
         )
         
         editorial_notes_html = '\n'.join(
-            f'<div id="{id}" class="editorial-note">{content}</div>'
+            f'<div id="{id}" class="editorial-note" data-page="{self.current_page}">{content}</div>'
             for id, content in self.editorial_notes
         )
         
         apparatus_entries_html = '\n'.join(
-            f'<div id="{id}" class="apparatus-entry">{content}</div>'
+            f'<div id="{id}" class="apparatus-entry" data-page="{self.current_page}">{content}</div>'
             for id, content in self.apparatus_entries
         )
         

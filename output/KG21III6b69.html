@@ -3,17 +3,27 @@
         <html lang="de">
         <head>
             <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Philosophische Bemerkungen</title>
             <link rel="stylesheet" href="styles.css">
         </head>
         <body>
             <div class="container">
-                <div class="facsimile">
+                <div class="facsimile" id="facsimile-panel">
                     <h3>Manuscript Images</h3>
-                    <figure class="manuscript-page"><img src="KG21III6b69-img.png" alt="Manuscript page 1"><figcaption>Page 1</figcaption></figure>
+                    <div class="image-controls">
+                        <button onclick="zoomIn()">Zoom In</button>
+                        <button onclick="zoomOut()">Zoom Out</button>
+                        <button onclick="resetZoom()">Reset</button>
+                    </div>
+                    <figure class="manuscript-page"><img src="KG21III6b69-img.png" alt="Manuscript page 1" class="zoomable-image"><figcaption>Page 1</figcaption></figure>
                 </div>
                 <div class="main-text">
                     <h1>Philosophische Bemerkungen</h1>
+                    <div class="text-controls">
+                        <input type="text" id="search" placeholder="Search text...">
+                        <button onclick="toggleNotes()">Toggle Notes</button>
+                    </div>
                     
 <div class="manuscript-section" id="div-563-568">
 <div  id="div-563">
@@ -28,13 +38,13 @@
                      (<abbr title="Grundlagen" class="expansion">Gr</abbr>)
                   </h2>
 <p>Die Bedeutung einer Zeichenverbindung ist der Gegenstand, über den im Satz gesprochen wird (dessen Vorstellung im Zuhörer erweckt werden soll und dem Redner vorschwebt).</p>
-<p>Die wahre Bedeutung der Zeichen<span class="apparatus" id="app-ea71b802" data-type="variant">verbindungen</span> der Form (<span class="apparatus" id="app-ce37103e" data-type="variant">ι</span><span class="italic">x</span>) (φ<span class="italic">x</span>):</p>
+<p>Die wahre Bedeutung der Zeichen<span class="apparatus" id="app-0ba1ba6a" data-type="variant">verbindungen</span> der Form (<span class="apparatus" id="app-16ebdb5c" data-type="variant">ι</span><span class="italic">x</span>) (φ<span class="italic">x</span>):</p>
 <ol>
 <li>Nach <span class="person">Frege</span> <span class="supplied" title="Editorial addition">[ist es]</span> der betreffenden Gegenstand (widerlegt durch das <span class="italic">Scott</span>-Argument).</li>
 <li>Nach <span class="person">Russell</span> <span class="supplied" title="Editorial addition">[ist es]</span> nichts (es ist eine zweckmäßige <span class="foreign" lang="fr">façon de parler</span>, aber, was zweckmäßig und was grammatisch wie ein Eigenname behandelt wird, bedeutet wahrscheinlich auch etwas und der fruchtbaren Aufgabe, diese zu finden, wird durch <span class="supplied" title="Editorial addition">[die]</span> Russellsche Ausflucht gerade ausgewichen).</li>
 <li>Es könnte den Begriff φ bedeuten. Aber was ist dann der Bedeutungsunterschied von Sohn des <span class="italic">A</span> und der Sohn des <span class="italic">A</span>? Außerdem hat man das Gefühl, dass es etwas Wirklich<span class="supplied" title="Editorial addition">[es]</span> bedeutet (das ist der Fregesche Sinn).</li>
-<li>Es bedeutet eine Seite (oder einen Teil) des Gegenstandes (<span class="person">Scott</span> ist nicht nur der Autor des <span class="title"><span class="italic">Wav<span class="supplied" title="Editorial addition">[erly]</span></span></span>).<sup class="footnote-marker" data-target="fn-eb32496d">1</sup> Es bedeutet <span class="person">Scott</span> insofern er der <div class="page-break" id="page-564">|564|</div> Autor des <span class="title"><span class="italic">Wav<span class="supplied" title="Editorial addition">[erly]</span></span></span> ist.</li>
-<li>Richtige Lösung Es bedeutet einen Ort im logischen Raum<span class="editorial-note" data-target="en-e2edf4e1">†</span><sup class="footnote-marker" data-target="fn-2af67b9a">2</sup>, das heißt, etwas, was sich zur abstrakten Begriffswelt so verhält, wie der Raum (und die Punkte) zur <del class="deletion">Körper</del> Welt der sinnlichen Begriffe. Die Dinge überdecken jede<span class="supplied" title="Editorial addition">[s]</span> einen bestimmten Teil dieses logischen Raums. Diese Gegenstände (<span class="apparatus" id="app-6b989ff0" data-type="variant">Mathematik</span> und logischer Raum und ihre Punkte) bilden eine 3te Art von <span class="italic">Entitäten</span> zwischen Dingen und Begriffen.</li>
+<li>Es bedeutet eine Seite (oder einen Teil) des Gegenstandes (<span class="person">Scott</span> ist nicht nur der Autor des <span class="title"><span class="italic">Wav<span class="supplied" title="Editorial addition">[erly]</span></span></span>).<sup class="footnote-marker" data-target="fn-51d18f7b">1</sup> Es bedeutet <span class="person">Scott</span> insofern er der <div class="page-break" id="page-564">|564|</div> Autor des <span class="title"><span class="italic">Wav<span class="supplied" title="Editorial addition">[erly]</span></span></span> ist.</li>
+<li>Richtige Lösung Es bedeutet einen Ort im logischen Raum<span class="editorial-note" data-target="en-1e13fced">†</span><sup class="footnote-marker" data-target="fn-b2740796">2</sup>, das heißt, etwas, was sich zur abstrakten Begriffswelt so verhält, wie der Raum (und die Punkte) zur <del class="deletion">Körper</del> Welt der sinnlichen Begriffe. Die Dinge überdecken jede<span class="supplied" title="Editorial addition">[s]</span> einen bestimmten Teil dieses logischen Raums. Diese Gegenstände (<span class="apparatus" id="app-866fc18e" data-type="variant">Mathematik</span> und logischer Raum und ihre Punkte) bilden eine 3te Art von <span class="italic">Entitäten</span> zwischen Dingen und Begriffen.</li>
 </ol>
 <p>Der logische Raum sieht verschieden aus, je nachdem, was für einen Möglichkeitsbegriff man zugrunde legt. Der Sinn verhält sich zur Bedeutung in diesem Sinn wie die <span class="italic">D<span class="supplied" title="Editorial addition">[e]</span>f<span class="supplied" title="Editorial addition">[inition]</span></span> eines Punktes zum Punkt. Diese Bedeutung liegt also was Vielfältigkeit oder Grad der Identifizierung oder Nähe zum Ding und Fern<span class="supplied" title="Editorial addition">[e]</span> von der Erscheinung betrifft, in der <div class="page-break" id="page-565">|565|</div> Mitte zwischen Sinn und Bedeutung (andere, vielleicht richtige Lösung <span class="italic">vgl</span>. <span class="italic">p</span>. 592).</p>
 </div>
@@ -47,10 +57,10 @@
 </span>
                      (<abbr title="Philosophie" class="expansion">Phil</abbr>)
                   </h2>
-<p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige Gesichtspunkt fehlte. Dieser ist für Geographie <span class="italic">Prod<span class="supplied" title="Editorial addition">[uktion]</span></span> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache der genau richtige Sinn (die richtige Übersetzung)<sup class="footnote-marker" data-target="fn-9bd72b54">3</sup>, für <span class="italic">Biologie</span> <span class="supplied" title="Editorial addition">[die]</span> <span class="italic">D<span class="supplied" title="Editorial addition">[e]</span>f<span class="supplied" title="Editorial addition">[inition]</span></span> von Tier<span class="supplied" title="Editorial addition">[en]</span> und Pflanze<span class="supplied" title="Editorial addition">[n]</span> und <span class="supplied" title="Editorial addition">[das]</span> Wiedererkennen dieser selben? Ideen in allen ihr<span class="supplied" title="Editorial addition">[en]</span> (<span class="foreign" lang="la">a priori</span> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<sup class="footnote-marker" data-target="fn-fef07482">4</sup> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<sup class="footnote-marker" data-target="fn-2a965114">5</sup>, während das in der <span class="italic">Mat<span class="supplied" title="Editorial addition">[hematik]</span></span> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
-<p>Der Grund <div class="page-break" id="page-566">|566|</div> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <span class="underline">es in jeder Sache eineindeutig definiert Richtiges gibt</span>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<span class="supplied" title="Editorial addition">[m]</span> Sinn und Bedeutung verleiht. <span class="apparatus" id="app-761cee58" data-type="variant">Werden</span> erkannt, indem man das Wirken einer absichtsvollen <span class="supplied" title="Editorial addition">[Kraft]</span> (von menschlicher Vernunft verschieden<span class="supplied" title="Editorial addition">[en]</span>) und die materiellen Gesetze nur als Mittel <span class="apparatus" id="app-40a30f99" data-type="variant">besitzende</span> Kraft sieht.</p>
+<p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige Gesichtspunkt fehlte. Dieser ist für Geographie <span class="italic">Prod<span class="supplied" title="Editorial addition">[uktion]</span></span> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache der genau richtige Sinn (die richtige Übersetzung)<sup class="footnote-marker" data-target="fn-3df174ba">3</sup>, für <span class="italic">Biologie</span> <span class="supplied" title="Editorial addition">[die]</span> <span class="italic">D<span class="supplied" title="Editorial addition">[e]</span>f<span class="supplied" title="Editorial addition">[inition]</span></span> von Tier<span class="supplied" title="Editorial addition">[en]</span> und Pflanze<span class="supplied" title="Editorial addition">[n]</span> und <span class="supplied" title="Editorial addition">[das]</span> Wiedererkennen dieser selben? Ideen in allen ihr<span class="supplied" title="Editorial addition">[en]</span> (<span class="foreign" lang="la">a priori</span> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<sup class="footnote-marker" data-target="fn-a7da4e92">4</sup> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<sup class="footnote-marker" data-target="fn-ce30b464">5</sup>, während das in der <span class="italic">Mat<span class="supplied" title="Editorial addition">[hematik]</span></span> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
+<p>Der Grund <div class="page-break" id="page-566">|566|</div> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <span class="underline">es in jeder Sache eineindeutig definiert Richtiges gibt</span>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<span class="supplied" title="Editorial addition">[m]</span> Sinn und Bedeutung verleiht. <span class="apparatus" id="app-3da966ed" data-type="variant">Werden</span> erkannt, indem man das Wirken einer absichtsvollen <span class="supplied" title="Editorial addition">[Kraft]</span> (von menschlicher Vernunft verschieden<span class="supplied" title="Editorial addition">[en]</span>) und die materiellen Gesetze nur als Mittel <span class="apparatus" id="app-af8e6bf3" data-type="variant">besitzende</span> Kraft sieht.</p>
 <p>In Folge des Mangels dieser Einsicht wir der ganze Mittelschulunterricht sinnlos und Zeitvergeudung. <span class="supplied" title="Editorial addition">[Ein]</span> privatist<span class="supplied" title="Editorial addition">[isches]</span> Studium könnte wahrscheinlich zur Prüfung in einem Zehntel der Zeit vorbereiten? -- <span class="italic">Fra<span class="supplied" title="Editorial addition">[ge]</span></span>: Kann der vollkommen objektiv (frei von Sünde) urteilende menschliche Verstand diese Einsicht ohne Unterricht (oder <span class="italic">parapsychol<span class="supplied" title="Editorial addition">[ogische]</span></span> Erfahrungen) gewinnen? <div class="page-break" id="page-567">|567|</div></p>
-<p>Insbesondere zum Beispiel zur <span class="title"><span class="italic">Aeneis</span></span><span class="editorial-note" data-target="en-dbab708d">†</span> <span class="supplied" title="Editorial addition">[gibt es]</span> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <span class="supplied" title="Editorial addition">[ist]</span>, sondern <span class="supplied" title="Editorial addition">[sie]</span> von vornherein als Sage behandelt <span class="supplied" title="Editorial addition">[wird]</span> und sogar als unmögliche Lüge (<span class="apparatus" id="app-5804b816" data-type="variant">handelt</span> von Göttern <span class="italic">etc</span>.), daher <span class="supplied" title="Editorial addition">[ist]</span> die Einstellung <del class="deletion">dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
+<p>Insbesondere zum Beispiel zur <span class="title"><span class="italic">Aeneis</span></span><span class="editorial-note" data-target="en-bafb3725">†</span> <span class="supplied" title="Editorial addition">[gibt es]</span> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <span class="supplied" title="Editorial addition">[ist]</span>, sondern <span class="supplied" title="Editorial addition">[sie]</span> von vornherein als Sage behandelt <span class="supplied" title="Editorial addition">[wird]</span> und sogar als unmögliche Lüge (<span class="apparatus" id="app-1a523e70" data-type="variant">handelt</span> von Göttern <span class="italic">etc</span>.), daher <span class="supplied" title="Editorial addition">[ist]</span> die Einstellung <del class="deletion">dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
 </div>
 <div class="note">
 <h2>
@@ -61,10 +71,10 @@
 </span>
                      (<abbr title="Philosophie" class="expansion">Phil</abbr>)
                   </h2>
-<p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige Gesichtspunkt fehlte. Dieser ist für Geographie <span class="italic">Prod<span class="supplied" title="Editorial addition">[uktion]</span></span> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache der genau richtige Sinn (die richtige Übersetzung)<sup class="footnote-marker" data-target="fn-59ad2f9d">6</sup>, für <span class="italic">Biologie</span> <span class="supplied" title="Editorial addition">[die]</span> <span class="italic">D<span class="supplied" title="Editorial addition">[e]</span>f<span class="supplied" title="Editorial addition">[inition]</span></span> von Tier<span class="supplied" title="Editorial addition">[en]</span> und Pflanze<span class="supplied" title="Editorial addition">[n]</span> und <span class="supplied" title="Editorial addition">[das]</span> Wiedererkennen dieser selben? Ideen in allen ihr<span class="supplied" title="Editorial addition">[en]</span> (<span class="foreign" lang="la">a priori</span> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<sup class="footnote-marker" data-target="fn-4b4bc45a">7</sup> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<sup class="footnote-marker" data-target="fn-ea34f8a0">8</sup>, während das in der <span class="italic">Mat<span class="supplied" title="Editorial addition">[hematik]</span></span> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
-<p>Der Grund <div class="page-break" id="page-566">|566|</div> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <span class="underline">es in jeder Sache eineindeutig definiert Richtiges gibt</span>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<span class="supplied" title="Editorial addition">[m]</span> Sinn und Bedeutung verleiht. <span class="apparatus" id="app-a3f87dfe" data-type="variant">Werden</span> erkannt, indem man das Wirken einer absichtsvollen <span class="supplied" title="Editorial addition">[Kraft]</span> (von menschlicher Vernunft verschieden<span class="supplied" title="Editorial addition">[en]</span>) und die materiellen Gesetze nur als Mittel <span class="apparatus" id="app-a6fd8062" data-type="variant">besitzende</span> Kraft sieht.</p>
+<p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige Gesichtspunkt fehlte. Dieser ist für Geographie <span class="italic">Prod<span class="supplied" title="Editorial addition">[uktion]</span></span> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache der genau richtige Sinn (die richtige Übersetzung)<sup class="footnote-marker" data-target="fn-000b6e7d">6</sup>, für <span class="italic">Biologie</span> <span class="supplied" title="Editorial addition">[die]</span> <span class="italic">D<span class="supplied" title="Editorial addition">[e]</span>f<span class="supplied" title="Editorial addition">[inition]</span></span> von Tier<span class="supplied" title="Editorial addition">[en]</span> und Pflanze<span class="supplied" title="Editorial addition">[n]</span> und <span class="supplied" title="Editorial addition">[das]</span> Wiedererkennen dieser selben? Ideen in allen ihr<span class="supplied" title="Editorial addition">[en]</span> (<span class="foreign" lang="la">a priori</span> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<sup class="footnote-marker" data-target="fn-e2727907">7</sup> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<sup class="footnote-marker" data-target="fn-65202ac8">8</sup>, während das in der <span class="italic">Mat<span class="supplied" title="Editorial addition">[hematik]</span></span> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
+<p>Der Grund <div class="page-break" id="page-566">|566|</div> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <span class="underline">es in jeder Sache eineindeutig definiert Richtiges gibt</span>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<span class="supplied" title="Editorial addition">[m]</span> Sinn und Bedeutung verleiht. <span class="apparatus" id="app-8995c827" data-type="variant">Werden</span> erkannt, indem man das Wirken einer absichtsvollen <span class="supplied" title="Editorial addition">[Kraft]</span> (von menschlicher Vernunft verschieden<span class="supplied" title="Editorial addition">[en]</span>) und die materiellen Gesetze nur als Mittel <span class="apparatus" id="app-94eabef8" data-type="variant">besitzende</span> Kraft sieht.</p>
 <p>In Folge des Mangels dieser Einsicht wir der ganze Mittelschulunterricht sinnlos und Zeitvergeudung. <span class="supplied" title="Editorial addition">[Ein]</span> privatist<span class="supplied" title="Editorial addition">[isches]</span> Studium könnte wahrscheinlich zur Prüfung in einem Zehntel der Zeit vorbereiten? -- <span class="italic">Fra<span class="supplied" title="Editorial addition">[ge]</span></span>: Kann der vollkommen objektiv (frei von Sünde) urteilende menschliche Verstand diese Einsicht ohne Unterricht (oder <span class="italic">parapsychol<span class="supplied" title="Editorial addition">[ogische]</span></span> Erfahrungen) gewinnen? <div class="page-break" id="page-567">|567|</div></p>
-<p>Insbesondere zum Beispiel zur <span class="title"><span class="italic">Aeneis</span></span><span class="editorial-note" data-target="en-2e726146">†</span> <span class="supplied" title="Editorial addition">[gibt es]</span> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <span class="supplied" title="Editorial addition">[ist]</span>, sondern <span class="supplied" title="Editorial addition">[sie]</span> von vornherein als Sage behandelt <span class="supplied" title="Editorial addition">[wird]</span> und sogar als unmögliche Lüge (<span class="apparatus" id="app-263cedb4" data-type="variant">handelt</span> von Göttern <span class="italic">etc</span>.), daher <span class="supplied" title="Editorial addition">[ist]</span> die Einstellung <del class="deletion">dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
+<p>Insbesondere zum Beispiel zur <span class="title"><span class="italic">Aeneis</span></span><span class="editorial-note" data-target="en-188c3675">†</span> <span class="supplied" title="Editorial addition">[gibt es]</span> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <span class="supplied" title="Editorial addition">[ist]</span>, sondern <span class="supplied" title="Editorial addition">[sie]</span> von vornherein als Sage behandelt <span class="supplied" title="Editorial addition">[wird]</span> und sogar als unmögliche Lüge (<span class="apparatus" id="app-1621dcc2" data-type="variant">handelt</span> von Göttern <span class="italic">etc</span>.), daher <span class="supplied" title="Editorial addition">[ist]</span> die Einstellung <del class="deletion">dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
 </div>
 <div class="note">
 <h2>
@@ -75,10 +85,10 @@
 </span>
                      (<abbr title="Philosophie" class="expansion">Phil</abbr>)
                   </h2>
-<p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige Gesichtspunkt fehlte. Dieser ist für Geographie <span class="italic">Prod<span class="supplied" title="Editorial addition">[uktion]</span></span> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache der genau richtige Sinn (die richtige Übersetzung)<sup class="footnote-marker" data-target="fn-a6d3ddb5">9</sup>, für <span class="italic">Biologie</span> <span class="supplied" title="Editorial addition">[die]</span> <span class="italic">D<span class="supplied" title="Editorial addition">[e]</span>f<span class="supplied" title="Editorial addition">[inition]</span></span> von Tier<span class="supplied" title="Editorial addition">[en]</span> und Pflanze<span class="supplied" title="Editorial addition">[n]</span> und <span class="supplied" title="Editorial addition">[das]</span> Wiedererkennen dieser selben? Ideen in allen ihr<span class="supplied" title="Editorial addition">[en]</span> (<span class="foreign" lang="la">a priori</span> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<sup class="footnote-marker" data-target="fn-e6f7a295">10</sup> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<sup class="footnote-marker" data-target="fn-339ce55b">11</sup>, während das in der <span class="italic">Mat<span class="supplied" title="Editorial addition">[hematik]</span></span> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
-<p>Der Grund <div class="page-break" id="page-566">|566|</div> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <span class="underline">es in jeder Sache eineindeutig definiert Richtiges gibt</span>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<span class="supplied" title="Editorial addition">[m]</span> Sinn und Bedeutung verleiht. <span class="apparatus" id="app-1de8a980" data-type="variant">Werden</span> erkannt, indem man das Wirken einer absichtsvollen <span class="supplied" title="Editorial addition">[Kraft]</span> (von menschlicher Vernunft verschieden<span class="supplied" title="Editorial addition">[en]</span>) und die materiellen Gesetze nur als Mittel <span class="apparatus" id="app-f215f085" data-type="variant">besitzende</span> Kraft sieht.</p>
+<p>Der Grund, weswegen ich in der Mittelschule nur zu Physik und Chemie eine sachliche Einstellung hatte, ist der, dass für die anderen Gegenstände der richtige Gesichtspunkt fehlte. Dieser ist für Geographie <span class="italic">Prod<span class="supplied" title="Editorial addition">[uktion]</span></span> der Güter, für Geschichte Macht (also letzten Endes Verteilung der Güter), für Sprache der genau richtige Sinn (die richtige Übersetzung)<sup class="footnote-marker" data-target="fn-22c61588">9</sup>, für <span class="italic">Biologie</span> <span class="supplied" title="Editorial addition">[die]</span> <span class="italic">D<span class="supplied" title="Editorial addition">[e]</span>f<span class="supplied" title="Editorial addition">[inition]</span></span> von Tier<span class="supplied" title="Editorial addition">[en]</span> und Pflanze<span class="supplied" title="Editorial addition">[n]</span> und <span class="supplied" title="Editorial addition">[das]</span> Wiedererkennen dieser selben? Ideen in allen ihr<span class="supplied" title="Editorial addition">[en]</span> (<span class="foreign" lang="la">a priori</span> abzuleitenden) Erscheinungsformen. Das heißt, in allen diesen Wissenschaften ist das Objekt (dessen Erkenntnis und Verständnis<sup class="footnote-marker" data-target="fn-84a4b4d8">10</sup> angestrebt werden) nicht das, worüber unmittelbar gesprochen wird (sondern nur in der Physik ist es so). Das heißt, das Dargebotene ist nicht das Objekt, sondern der Weg zum Objekt<sup class="footnote-marker" data-target="fn-b6ed873a">11</sup>, während das in der <span class="italic">Mat<span class="supplied" title="Editorial addition">[hematik]</span></span> Dargebotene umgekehrt nicht die Theorie, sondern das Objekt ist.</p>
+<p>Der Grund <div class="page-break" id="page-566">|566|</div> dafür ist der Mangel des Religionsunterrichts, dessen Zweck es wäre, die Überzeugung zu wecken, dass alles in dieser Welt nach einem wohlerwogenen Plan und in höchster Regelmäßigkeit und Zweckmäßigkeit eingerichtet ist. Das heißt, dass es letzten Endes nichts Sinnloses, Zufälliges, Schlechtes gibt. Dass insbesondere <span class="underline">es in jeder Sache eineindeutig definiert Richtiges gibt</span>, besonders in allem, was mit der Sprache zusammenhängt. Das ist das Licht, welches alle<span class="supplied" title="Editorial addition">[m]</span> Sinn und Bedeutung verleiht. <span class="apparatus" id="app-9938c63c" data-type="variant">Werden</span> erkannt, indem man das Wirken einer absichtsvollen <span class="supplied" title="Editorial addition">[Kraft]</span> (von menschlicher Vernunft verschieden<span class="supplied" title="Editorial addition">[en]</span>) und die materiellen Gesetze nur als Mittel <span class="apparatus" id="app-7d46fcd4" data-type="variant">besitzende</span> Kraft sieht.</p>
 <p>In Folge des Mangels dieser Einsicht wir der ganze Mittelschulunterricht sinnlos und Zeitvergeudung. <span class="supplied" title="Editorial addition">[Ein]</span> privatist<span class="supplied" title="Editorial addition">[isches]</span> Studium könnte wahrscheinlich zur Prüfung in einem Zehntel der Zeit vorbereiten? -- <span class="italic">Fra<span class="supplied" title="Editorial addition">[ge]</span></span>: Kann der vollkommen objektiv (frei von Sünde) urteilende menschliche Verstand diese Einsicht ohne Unterricht (oder <span class="italic">parapsychol<span class="supplied" title="Editorial addition">[ogische]</span></span> Erfahrungen) gewinnen? <div class="page-break" id="page-567">|567|</div></p>
-<p>Insbesondere zum Beispiel zur <span class="title"><span class="italic">Aeneis</span></span><span class="editorial-note" data-target="en-111aa540">†</span> <span class="supplied" title="Editorial addition">[gibt es]</span> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <span class="supplied" title="Editorial addition">[ist]</span>, sondern <span class="supplied" title="Editorial addition">[sie]</span> von vornherein als Sage behandelt <span class="supplied" title="Editorial addition">[wird]</span> und sogar als unmögliche Lüge (<span class="apparatus" id="app-c4f6772c" data-type="variant">handelt</span> von Göttern <span class="italic">etc</span>.), daher <span class="supplied" title="Editorial addition">[ist]</span> die Einstellung <del class="deletion">dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
+<p>Insbesondere zum Beispiel zur <span class="title"><span class="italic">Aeneis</span></span><span class="editorial-note" data-target="en-db796d68">†</span> <span class="supplied" title="Editorial addition">[gibt es]</span> keine sachliche Einstellung, weil nicht nur ihre Form unnatürlich <span class="supplied" title="Editorial addition">[ist]</span>, sondern <span class="supplied" title="Editorial addition">[sie]</span> von vornherein als Sage behandelt <span class="supplied" title="Editorial addition">[wird]</span> und sogar als unmögliche Lüge (<span class="apparatus" id="app-52f016db" data-type="variant">handelt</span> von Göttern <span class="italic">etc</span>.), daher <span class="supplied" title="Editorial addition">[ist]</span> die Einstellung <del class="deletion">dazu im Sinn</del>, das Wahre darin zu suchen, unmöglich.</p>
 </div>
 <div class="note">
 <h2>
@@ -94,7 +104,7 @@
 <li>die Theorie<span class="supplied" title="Editorial addition">[n]</span>, die sie haben. Diese <span class="supplied" title="Editorial addition">[können]</span>
 <ol class="letter-list">
 <li>mehr oder weniger umfassend sein (d. h. <span class="supplied" title="Editorial addition">[es kann]</span> viel oder wenig daraus folgen);</li>
-<li>mehr oder weniger Verständnis [Theorie] in sich haben<sup class="footnote-marker" data-target="fn-72cd669a">12</sup>;</li>
+<li>mehr oder weniger Verständnis [Theorie] in sich haben<sup class="footnote-marker" data-target="fn-09b0d0f5">12</sup>;</li>
 <li>mehr oder weniger richtig <span class="supplied" title="Editorial addition">[sein]</span>;</li>
 <li>mehr ethisch oder mehr sachlich sein.</li>
 </ol>
@@ -110,8 +120,8 @@
 </span>
                      (<abbr title="Philosophie" class="expansion">Phil</abbr>)
                   </h2>
-<p>Die Fehler, die man beim Anstreben eine Ziels macht, spiegeln sich in dem <span class="apparatus" id="app-20c670c9" data-type="variant">Erreichten</span> genau ab. Zum Beispiel beim Wohnung suchen. Fehler, dass sie das Wort führt, daher <span class="supplied" title="Editorial addition">[ist die]</span> Wohnung für sie gut, aber nicht für mich. Da aber die Beherrschung nur eine äußerliche und nur durch meine Schwäche (nicht ihre Energie) bedingt ist, so ist der Schaden für mich nur durch meine Schwäche bedingt.</p>
-<p>Außerdem hat ihre Ungeduld<sup class="footnote-marker" data-target="fn-4f59bbb8">13</sup> zur Folge, dass immer etwas für sie Ärgerlich<span class="supplied" title="Editorial addition">[es]</span> darin ist. Ärger <span class="apparatus" id="app-83828e9a" data-type="variant">ist das</span> durch ein Wissen, dass etwas (eine Kleinigkeit) <span class="supplied" title="Editorial addition">[ist]</span>, das ein gewiss<span class="supplied" title="Editorial addition">[es]</span> (nicht zu großes) Leiden verursacht oder Gut<span class="supplied" title="Editorial addition">[es]</span> wegnimmt. Verstärkt <span class="supplied" title="Editorial addition">[wird das]</span>, wenn durch menschliche Schuld oder Bosheit verursacht <span class="supplied" title="Editorial addition">[ist]</span> (Ärger ist also ein schwacher Zorn auf eine Sache, die Weltordnung oder einen Menschen); <span class="foreign" lang="la">irascibilis passio</span> = solche, deren Kausation durch den <span class="italic">Intellect</span> geht.</p>
+<p>Die Fehler, die man beim Anstreben eine Ziels macht, spiegeln sich in dem <span class="apparatus" id="app-85d8730d" data-type="variant">Erreichten</span> genau ab. Zum Beispiel beim Wohnung suchen. Fehler, dass sie das Wort führt, daher <span class="supplied" title="Editorial addition">[ist die]</span> Wohnung für sie gut, aber nicht für mich. Da aber die Beherrschung nur eine äußerliche und nur durch meine Schwäche (nicht ihre Energie) bedingt ist, so ist der Schaden für mich nur durch meine Schwäche bedingt.</p>
+<p>Außerdem hat ihre Ungeduld<sup class="footnote-marker" data-target="fn-2e54583e">13</sup> zur Folge, dass immer etwas für sie Ärgerlich<span class="supplied" title="Editorial addition">[es]</span> darin ist. Ärger <span class="apparatus" id="app-45a2e81e" data-type="variant">ist das</span> durch ein Wissen, dass etwas (eine Kleinigkeit) <span class="supplied" title="Editorial addition">[ist]</span>, das ein gewiss<span class="supplied" title="Editorial addition">[es]</span> (nicht zu großes) Leiden verursacht oder Gut<span class="supplied" title="Editorial addition">[es]</span> wegnimmt. Verstärkt <span class="supplied" title="Editorial addition">[wird das]</span>, wenn durch menschliche Schuld oder Bosheit verursacht <span class="supplied" title="Editorial addition">[ist]</span> (Ärger ist also ein schwacher Zorn auf eine Sache, die Weltordnung oder einen Menschen); <span class="foreign" lang="la">irascibilis passio</span> = solche, deren Kausation durch den <span class="italic">Intellect</span> geht.</p>
 </div>
 </div>
 </div>
@@ -119,86 +129,135 @@
                 </div>
                 <div class="apparatus">
                     <h3>Critical Apparatus</h3>
+                    <div class="apparatus-controls">
+                        <select id="apparatus-filter">
+                            <option value="all">All Notes</option>
+                            <option value="footnotes">Footnotes</option>
+                            <option value="editorial">Editorial</option>
+                            <option value="variants">Variants</option>
+                        </select>
+                    </div>
                     <div id="footnotes">
                         <h4>Footnotes</h4>
-                        <div id="fn-eb32496d" class="footnote">1. 
+                        <div id="fn-51d18f7b" class="footnote" data-page="568">1. 
 Napoleon, der die Gefahr für seine Flanke erkannte ist gewissermaßen ein Anderer. andere Lesart für „seine Flanke": die Seitenflanke"
 </div>
-<div id="fn-2af67b9a" class="footnote">2. Oder besser: Das, was sich an diesem Ort befindet, das ist aber nicht der ganze Scott, sondern ein Teil.</div>
-<div id="fn-9bd72b54" class="footnote">3. Und auch in der Literatur.</div>
-<div id="fn-fef07482" class="footnote">4. Das heißt Theorie.</div>
-<div id="fn-2a965114" class="footnote">5. Das heißt die Erscheinung des Objekts.</div>
-<div id="fn-59ad2f9d" class="footnote">6. Und auch in der Literatur.</div>
-<div id="fn-4b4bc45a" class="footnote">7. Das heißt Theorie.</div>
-<div id="fn-ea34f8a0" class="footnote">8. Das heißt die Erscheinung des Objekts.</div>
-<div id="fn-a6d3ddb5" class="footnote">9. Und auch in der Literatur.</div>
-<div id="fn-e6f7a295" class="footnote">10. Das heißt Theorie.</div>
-<div id="fn-339ce55b" class="footnote">11. Das heißt die Erscheinung des Objekts.</div>
-<div id="fn-72cd669a" class="footnote">12. Zum Beispiel ein Zauberbuch oder Gefühl.</div>
-<div id="fn-4f59bbb8" class="footnote">13. Das heißt, sie verlangt zu viel.</div>
+<div id="fn-b2740796" class="footnote" data-page="568">2. Oder besser: Das, was sich an diesem Ort befindet, das ist aber nicht der ganze Scott, sondern ein Teil.</div>
+<div id="fn-3df174ba" class="footnote" data-page="568">3. Und auch in der Literatur.</div>
+<div id="fn-a7da4e92" class="footnote" data-page="568">4. Das heißt Theorie.</div>
+<div id="fn-ce30b464" class="footnote" data-page="568">5. Das heißt die Erscheinung des Objekts.</div>
+<div id="fn-000b6e7d" class="footnote" data-page="568">6. Und auch in der Literatur.</div>
+<div id="fn-e2727907" class="footnote" data-page="568">7. Das heißt Theorie.</div>
+<div id="fn-65202ac8" class="footnote" data-page="568">8. Das heißt die Erscheinung des Objekts.</div>
+<div id="fn-22c61588" class="footnote" data-page="568">9. Und auch in der Literatur.</div>
+<div id="fn-84a4b4d8" class="footnote" data-page="568">10. Das heißt Theorie.</div>
+<div id="fn-b6ed873a" class="footnote" data-page="568">11. Das heißt die Erscheinung des Objekts.</div>
+<div id="fn-09b0d0f5" class="footnote" data-page="568">12. Zum Beispiel ein Zauberbuch oder Gefühl.</div>
+<div id="fn-2e54583e" class="footnote" data-page="568">13. Das heißt, sie verlangt zu viel.</div>
                     </div>
                     <div id="editorial-notes">
                         <h4>Editorial Notes</h4>
-                        <div id="en-e2edf4e1" class="editorial-note">Vgl. ›Max VII‹, Ms.-S. 472.</div>
-<div id="en-dbab708d" class="editorial-note">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</div>
-<div id="en-2e726146" class="editorial-note">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</div>
-<div id="en-111aa540" class="editorial-note">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</div>
+                        <div id="en-1e13fced" class="editorial-note" data-page="568">Vgl. ›Max VII‹, Ms.-S. 472.</div>
+<div id="en-bafb3725" class="editorial-note" data-page="568">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</div>
+<div id="en-188c3675" class="editorial-note" data-page="568">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</div>
+<div id="en-db796d68" class="editorial-note" data-page="568">Vergils ›Aeneis‹ war bereits in der antike Schullektüre.</div>
                     </div>
                     <div id="apparatus-entries">
                         <h4>Textual Variants</h4>
-                        <div id="app-ea71b802" class="apparatus-entry">Lemma: verbindungen, Reading: Verwendungen (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-ce37103e" class="apparatus-entry">Lemma: ι, Reading: umgedrehtes Iota (editorial, Eva-Maria)</div>
-<div id="app-6b989ff0" class="apparatus-entry">Lemma: Mathematik, Reading: mathematischer (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-761cee58" class="apparatus-entry">Lemma: Werden, Reading: wird (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-40a30f99" class="apparatus-entry">Lemma: besitzende, Reading: besetzende (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-5804b816" class="apparatus-entry">Lemma: handelt, Reading: Handel (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-a3f87dfe" class="apparatus-entry">Lemma: Werden, Reading: wird (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-a6fd8062" class="apparatus-entry">Lemma: besitzende, Reading: besetzende (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-263cedb4" class="apparatus-entry">Lemma: handelt, Reading: Handel (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-1de8a980" class="apparatus-entry">Lemma: Werden, Reading: wird (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-f215f085" class="apparatus-entry">Lemma: besitzende, Reading: besetzende (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-c4f6772c" class="apparatus-entry">Lemma: handelt, Reading: Handel (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-20c670c9" class="apparatus-entry">Lemma: Erreichten, Reading: Erreichen (alternative, Eva Maria Engelen Drive-Benutzer)</div>
-<div id="app-83828e9a" class="apparatus-entry">Lemma: ist das, Reading: ist, dass (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+                        <div id="app-0ba1ba6a" class="apparatus-entry" data-page="568">Lemma: verbindungen, Reading: Verwendungen (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-16ebdb5c" class="apparatus-entry" data-page="568">Lemma: ι, Reading: umgedrehtes Iota (editorial, Eva-Maria)</div>
+<div id="app-866fc18e" class="apparatus-entry" data-page="568">Lemma: Mathematik, Reading: mathematischer (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-3da966ed" class="apparatus-entry" data-page="568">Lemma: Werden, Reading: wird (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-af8e6bf3" class="apparatus-entry" data-page="568">Lemma: besitzende, Reading: besetzende (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-1a523e70" class="apparatus-entry" data-page="568">Lemma: handelt, Reading: Handel (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-8995c827" class="apparatus-entry" data-page="568">Lemma: Werden, Reading: wird (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-94eabef8" class="apparatus-entry" data-page="568">Lemma: besitzende, Reading: besetzende (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-1621dcc2" class="apparatus-entry" data-page="568">Lemma: handelt, Reading: Handel (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-9938c63c" class="apparatus-entry" data-page="568">Lemma: Werden, Reading: wird (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-7d46fcd4" class="apparatus-entry" data-page="568">Lemma: besitzende, Reading: besetzende (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-52f016db" class="apparatus-entry" data-page="568">Lemma: handelt, Reading: Handel (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-85d8730d" class="apparatus-entry" data-page="568">Lemma: Erreichten, Reading: Erreichen (alternative, Eva Maria Engelen Drive-Benutzer)</div>
+<div id="app-45a2e81e" class="apparatus-entry" data-page="568">Lemma: ist das, Reading: ist, dass (alternative, Eva Maria Engelen Drive-Benutzer)</div>
                     </div>
                 </div>
             </div>
             <script>
                 document.addEventListener('DOMContentLoaded', function() {
-                    // Highlight text when clicking on apparatus entries
+                    // Enhanced image viewer functionality
+                    let scale = 1;
+                    window.zoomIn = function() {
+                        scale *= 1.2;
+                        updateZoom();
+                    };
+                    window.zoomOut = function() {
+                        scale /= 1.2;
+                        updateZoom();
+                    };
+                    window.resetZoom = function() {
+                        scale = 1;
+                        updateZoom();
+                    };
+                    function updateZoom() {
+                        document.querySelectorAll('.facsimile img').forEach(img => {
+                            img.style.transform = `scale(${scale})`;
+                        });
+                    }
+
+                    // Enhanced text highlighting
                     document.querySelectorAll('[data-target]').forEach(item => {
                         item.addEventListener('click', e => {
                             const targetId = e.currentTarget.getAttribute('data-target');
                             const targetElement = document.getElementById(targetId);
                             if (targetElement) {
+                                // Remove previous highlights
+                                document.querySelectorAll('.highlighted').forEach(el => {
+                                    el.classList.remove('highlighted');
+                                });
+                                // Add new highlight
+                                targetElement.classList.add('highlighted');
                                 targetElement.scrollIntoView({behavior: 'smooth', block: 'center'});
-                                targetElement.style.backgroundColor = '#ffeb3b';
-                                setTimeout(() => {
-                                    targetElement.style.backgroundColor = '';
-                                }, 2000);
                             }
                         });
                     });
 
-                    // Image zoom functionality
-                    document.querySelectorAll('.facsimile img').forEach(img => {
-                        img.addEventListener('click', e => {
-                            const viewer = document.createElement('div');
-                            viewer.className = 'image-viewer';
-                            viewer.innerHTML = `
-                                <div class="image-viewer-content">
-                                    <img src="${e.target.src}">
-                                    <button class="close-viewer">×</button>
-                                </div>
-                            `;
-                            document.body.appendChild(viewer);
-                            viewer.addEventListener('click', e => {
-                                if (e.target.classList.contains('image-viewer') || 
-                                    e.target.classList.contains('close-viewer')) {
-                                    viewer.remove();
-                                }
+                    // Apparatus filtering
+                    document.getElementById('apparatus-filter').addEventListener('change', function(e) {
+                        const filter = e.target.value;
+                        const sections = {
+                            'footnotes': document.getElementById('footnotes'),
+                            'editorial': document.getElementById('editorial-notes'),
+                            'variants': document.getElementById('apparatus-entries')
+                        };
+                        
+                        if (filter === 'all') {
+                            Object.values(sections).forEach(section => {
+                                section.style.display = 'block';
                             });
-                        });
+                        } else {
+                            Object.entries(sections).forEach(([key, section]) => {
+                                section.style.display = key === filter ? 'block' : 'none';
+                            });
+                        }
+                    });
+
+                    // Text search functionality
+                    const searchInput = document.getElementById('search');
+                    let searchTimeout;
+                    searchInput.addEventListener('input', function(e) {
+                        clearTimeout(searchTimeout);
+                        searchTimeout = setTimeout(() => {
+                            const searchText = e.target.value.toLowerCase();
+                            const content = document.querySelector('.main-text');
+                            if (!searchText) {
+                                // Reset highlights
+                                content.innerHTML = content.innerHTML.replace(/<mark>|<\/mark>/g, '');
+                                return;
+                            }
+                            
+                            const regex = new RegExp(searchText, 'gi');
+                            content.innerHTML = content.innerHTML.replace(/<mark>|<\/mark>/g, '');
+                            content.innerHTML = content.innerHTML.replace(regex, match => `<mark>${match}</mark>`);
+                        }, 300);
                     });
                 });
             </script>
