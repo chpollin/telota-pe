@@ -1,0 +1,927 @@
+{
+  "People": {
+    "main_items": [
+      {
+        "input": "Robert Hermann Schomburgk (Explorer/Scientist)",
+        "wikidata_id": "Q62118",
+        "wikidata_label": "Robert Hermann Schomburgk",
+        "wikidata_description": "German explorer, botanist, and ichthyologist (1804-1865)",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q62118"
+      },
+      {
+        "input": "Columbus (Explorer)",
+        "wikidata_id": "Q16567",
+        "wikidata_label": "Columbus",
+        "wikidata_description": "capital city of Ohio, United States of America",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q16567"
+      },
+      {
+        "input": "von Humboldt (Scientist/Explorer)",
+        "wikidata_id": "Q6694",
+        "wikidata_label": "Alexander von Humboldt",
+        "wikidata_description": "Prussian geographer, naturalist and explorer (1769–1859)",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q6694"
+      },
+      {
+        "input": "Bonpland (Scientist/Explorer)",
+        "wikidata_id": "Q405702",
+        "wikidata_label": "Aimé Bonpland",
+        "wikidata_description": "French physician, botanist and explorer (1773-1858)",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q405702"
+      },
+      {
+        "input": "Nicolas Hortsmann (German surgeon/explorer)",
+        "matched": false
+      },
+      {
+        "input": "M. Condamine (French academician)",
+        "matched": false
+      },
+      {
+        "input": "d'Anville (Geographer)",
+        "wikidata_id": "Q61625154",
+        "wikidata_label": "Nancy Anne Kingsbury Wollstonecraft",
+        "wikidata_description": "American botanist, scientific illustrator, writer and advocate for women's rights (1781-1828)",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q61625154"
+      },
+      {
+        "input": "Don Fr. José Rodriguez Barate (Military ensign)",
+        "matched": false
+      },
+      {
+        "input": "John Carg (Cartographer)",
+        "wikidata_id": "Q6225143",
+        "wikidata_label": "John Cargill Brough",
+        "wikidata_description": "British science writer and lecturer (1834-1872)",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q6225143"
+      },
+      {
+        "input": "La Cruz (Cartographer)",
+        "wikidata_id": "Q124622644",
+        "wikidata_label": "La Cruz",
+        "wikidata_description": "",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q124622644"
+      },
+      {
+        "input": "Aublet (Scientist)",
+        "wikidata_id": "Q104592547",
+        "wikidata_label": "Aublet",
+        "wikidata_description": "family name",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q104592547"
+      },
+      {
+        "input": "Richard (Scientist)",
+        "wikidata_id": "Q1249148",
+        "wikidata_label": "Richard",
+        "wikidata_description": "male given name",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q1249148"
+      },
+      {
+        "input": "Bolingbroke (Author)",
+        "wikidata_id": "Q3641737",
+        "wikidata_label": "Bolingbroke",
+        "wikidata_description": "civil parish in Lincolnshire, UK",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q3641737"
+      },
+      {
+        "input": "Tanner (Cartographer)",
+        "wikidata_id": "Q13560243",
+        "wikidata_label": "Tanner",
+        "wikidata_description": "family name",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q13560243"
+      }
+    ],
+    "subsections": {}
+  },
+  "Rivers": {
+    "main_items": [
+      {
+        "input": "Orinoco",
+        "wikidata_id": "Q131792",
+        "wikidata_label": "Orinoco River",
+        "wikidata_description": "river in South America",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q131792"
+      },
+      {
+        "input": "Essequebo/Essequibo",
+        "matched": false
+      },
+      {
+        "input": "Branco",
+        "wikidata_id": "Q16860350",
+        "wikidata_label": "Branco",
+        "wikidata_description": "family name",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q16860350"
+      },
+      {
+        "input": "Meta",
+        "wikidata_id": "Q380",
+        "wikidata_label": "Meta Platforms",
+        "wikidata_description": "American multinational technology corporation",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q380"
+      },
+      {
+        "input": "Vichada",
+        "wikidata_id": "Q268729",
+        "wikidata_label": "Vichada Department",
+        "wikidata_description": "a department of Colombia",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q268729"
+      },
+      {
+        "input": "Negro",
+        "wikidata_id": "Q132959",
+        "wikidata_label": "Sub-Saharan Africa",
+        "wikidata_description": "area of the continent of Africa that lies south of the Sahara Desert",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q132959"
+      },
+      {
+        "input": "Amazon",
+        "wikidata_id": "Q3884",
+        "wikidata_label": "Amazon",
+        "wikidata_description": "American multinational technology company",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q3884"
+      },
+      {
+        "input": "Plata",
+        "wikidata_id": "Q161374",
+        "wikidata_label": "Platanus × hispanica",
+        "wikidata_description": "Nothospecies of plant",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q161374"
+      },
+      {
+        "input": "Apure",
+        "wikidata_id": "Q41146",
+        "wikidata_label": "Apure",
+        "wikidata_description": "state of Venezuela",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q41146"
+      },
+      {
+        "input": "Madeira",
+        "wikidata_id": "Q26253",
+        "wikidata_label": "Madeira",
+        "wikidata_description": "Autonomous Region of Portugal in the archipelago of Madeira",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q26253"
+      },
+      {
+        "input": "Tuamini",
+        "matched": false
+      },
+      {
+        "input": "Atabapo",
+        "wikidata_id": "Q3444760",
+        "wikidata_label": "Atabapo River",
+        "wikidata_description": "river in Venezuela",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q3444760"
+      },
+      {
+        "input": "Coyoni/Cuyuni",
+        "matched": false
+      },
+      {
+        "input": "Mazerony/Mazarony",
+        "matched": false
+      },
+      {
+        "input": "Rupunuri",
+        "matched": false
+      },
+      {
+        "input": "Sibarona",
+        "matched": false
+      },
+      {
+        "input": "Tavaricuri",
+        "matched": false
+      },
+      {
+        "input": "Pirara",
+        "wikidata_id": "Q14560756",
+        "wikidata_label": "Pirara",
+        "wikidata_description": "genus of insects",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q14560756"
+      },
+      {
+        "input": "Mahu",
+        "wikidata_id": "Q65109513",
+        "wikidata_label": "Mahu",
+        "wikidata_description": "family name",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q65109513"
+      },
+      {
+        "input": "Sarauri",
+        "wikidata_id": "Q70003473",
+        "wikidata_label": "Sarauri Branch Post Office",
+        "wikidata_description": "",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q70003473"
+      },
+      {
+        "input": "Tacutu",
+        "wikidata_id": "Q3176938",
+        "wikidata_label": "Takutu River",
+        "wikidata_description": "river in Guyana & Brazil",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q3176938"
+      },
+      {
+        "input": "Caura",
+        "wikidata_id": "Q97643393",
+        "wikidata_label": "Caura",
+        "wikidata_description": "ancient Iberian city",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q97643393"
+      },
+      {
+        "input": "Cuchivero",
+        "wikidata_id": "Q5192326",
+        "wikidata_label": "Cuchivero River",
+        "wikidata_description": "river in Venezuela",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q5192326"
+      },
+      {
+        "input": "Ventuari",
+        "wikidata_id": "Q1349924",
+        "wikidata_label": "Ventuari River",
+        "wikidata_description": "river in Venezuelo",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q1349924"
+      },
+      {
+        "input": "Arui",
+        "wikidata_id": "Q60819548",
+        "wikidata_label": "Arui",
+        "wikidata_description": "village in India",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q60819548"
+      },
+      {
+        "input": "Carony",
+        "wikidata_id": "Q104361636",
+        "wikidata_label": "Carony",
+        "wikidata_description": "townland in Tyrone, Northern Ireland",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q104361636"
+      }
+    ],
+    "subsections": {}
+  },
+  "Mountains/Mountain Ranges": {
+    "main_items": [
+      {
+        "input": "Andes (Cordillera de los Andes)",
+        "wikidata_id": "Q5456",
+        "wikidata_label": "Andes",
+        "wikidata_description": "mountain range running along the western side of South America",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q5456"
+      },
+      {
+        "input": "Sierra Nevada de Santa Marta",
+        "wikidata_id": "Q26728",
+        "wikidata_label": "Sierra Nevada de Santa Marta",
+        "wikidata_description": "mountain range",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q26728"
+      },
+      {
+        "input": "Sierra de la Parime",
+        "matched": false
+      },
+      {
+        "input": "Mountains of Brazil (Chiquitos)",
+        "matched": false
+      },
+      {
+        "input": "Imataka mountains",
+        "wikidata_id": "Q3656183",
+        "wikidata_label": "Imataka Mountains",
+        "wikidata_description": "mountain in Venezuela",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q3656183"
+      },
+      {
+        "input": "Rinocote mountains",
+        "matched": false
+      },
+      {
+        "input": "Usupania mountains",
+        "matched": false
+      },
+      {
+        "input": "Pacarayna mountains",
+        "matched": false
+      },
+      {
+        "input": "Chaviripe mountains",
+        "matched": false
+      },
+      {
+        "input": "Baraguan mountains",
+        "matched": false
+      },
+      {
+        "input": "Carichana mountains",
+        "matched": false
+      },
+      {
+        "input": "Peak of Uniana",
+        "matched": false
+      },
+      {
+        "input": "Cerro Cunero",
+        "matched": false
+      },
+      {
+        "input": "Corozal mountains",
+        "wikidata_id": "Q35704150",
+        "wikidata_label": "Montañas de Corozal",
+        "wikidata_description": "mountain range that is part of the Central Puerto Rico mountain range",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q35704150"
+      },
+      {
+        "input": "Amoco mountains",
+        "matched": false
+      },
+      {
+        "input": "Matacuna mountains",
+        "matched": false
+      }
+    ],
+    "subsections": {}
+  },
+  "Water Bodies": {
+    "main_items": [
+      {
+        "input": "Gulf of Maracaybo",
+        "matched": false
+      },
+      {
+        "input": "Straits of Magellan",
+        "wikidata_id": "Q75400201",
+        "wikidata_label": "Straits of Magellan",
+        "wikidata_description": "print in the National Gallery of Art (NGA 97406)",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q75400201"
+      },
+      {
+        "input": "Laguna de Parime",
+        "matched": false
+      },
+      {
+        "input": "Lake of Rupunuwini",
+        "matched": false
+      }
+    ],
+    "subsections": {}
+  },
+  "Geographical Points/Features": {
+    "main_items": [
+      {
+        "input": "Cape St. Roque",
+        "matched": false
+      },
+      {
+        "input": "Cape Blanco",
+        "wikidata_id": "Q1520946",
+        "wikidata_label": "Ras Nouadhibou",
+        "wikidata_description": "peninsula",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q1520946"
+      },
+      {
+        "input": "Cape Pilares",
+        "matched": false
+      },
+      {
+        "input": "Cape of Paria",
+        "matched": false
+      },
+      {
+        "input": "Isthmun of Darien",
+        "matched": false
+      },
+      {
+        "input": "Plains of Quito",
+        "matched": false
+      },
+      {
+        "input": "Boca del Infierno",
+        "wikidata_id": "Q31917480",
+        "wikidata_label": "Boca del Infierno",
+        "wikidata_description": "sound in Puerto Rico",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q31917480"
+      },
+      {
+        "input": "Cataract of Apures",
+        "matched": false
+      },
+      {
+        "input": "Rapids of Mura",
+        "matched": false
+      },
+      {
+        "input": "Rapids of Tomo",
+        "matched": false
+      }
+    ],
+    "subsections": {}
+  },
+  "Political/Administrative Entities": {
+    "main_items": [],
+    "subsections": {
+      "Countries/Empires": [
+        {
+          "input": "British Guiana",
+          "wikidata_id": "Q918126",
+          "wikidata_label": "British Guiana",
+          "wikidata_description": "British posession in the Guianas region between 1814–1966",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q918126"
+        },
+        {
+          "input": "Brazil",
+          "wikidata_id": "Q155",
+          "wikidata_label": "Brazil",
+          "wikidata_description": "country in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q155"
+        },
+        {
+          "input": "Colombia",
+          "wikidata_id": "Q739",
+          "wikidata_label": "Colombia",
+          "wikidata_description": "sovereign state in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q739"
+        },
+        {
+          "input": "Venezuela",
+          "wikidata_id": "Q717",
+          "wikidata_label": "Venezuela",
+          "wikidata_description": "sovereign state in northern South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q717"
+        },
+        {
+          "input": "Peru",
+          "wikidata_id": "Q419",
+          "wikidata_label": "Peru",
+          "wikidata_description": "sovereign state in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q419"
+        },
+        {
+          "input": "Ecuador",
+          "wikidata_id": "Q736",
+          "wikidata_label": "Ecuador",
+          "wikidata_description": "sovereign state in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q736"
+        },
+        {
+          "input": "Bolivia",
+          "wikidata_id": "Q750",
+          "wikidata_label": "Bolivia",
+          "wikidata_description": "sovereign state in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q750"
+        },
+        {
+          "input": "Chile",
+          "wikidata_id": "Q298",
+          "wikidata_label": "Chile",
+          "wikidata_description": "country in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q298"
+        },
+        {
+          "input": "Buenos Ayres (United Provinces of la Plata)",
+          "wikidata_id": "Q1486",
+          "wikidata_label": "Buenos Aires",
+          "wikidata_description": "capital and largest city of Argentina",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q1486"
+        },
+        {
+          "input": "Banda oriental",
+          "wikidata_id": "Q617103",
+          "wikidata_label": "Banda Oriental",
+          "wikidata_description": "historical and geographical region of South America, referring to the lands located southeast of the Paraná River",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q617103"
+        },
+        {
+          "input": "Paraguay",
+          "wikidata_id": "Q733",
+          "wikidata_label": "Paraguay",
+          "wikidata_description": "sovereign state in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q733"
+        },
+        {
+          "input": "Terra del Fuego",
+          "matched": false
+        }
+      ],
+      "Cities/Settlements": [
+        {
+          "input": "Esmeralda",
+          "wikidata_id": "Q1367922",
+          "wikidata_label": "Esmeralda",
+          "wikidata_description": "female given name",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q1367922"
+        },
+        {
+          "input": "Pará",
+          "wikidata_id": "Q39517",
+          "wikidata_label": "Pará",
+          "wikidata_description": "state in the North Region of Brazil",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q39517"
+        },
+        {
+          "input": "Surinam",
+          "wikidata_id": "Q730",
+          "wikidata_label": "Suriname",
+          "wikidata_description": "country in South America",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q730"
+        },
+        {
+          "input": "Angostura",
+          "wikidata_id": "Q26906",
+          "wikidata_label": "Ciudad Bolívar",
+          "wikidata_description": "city in Bolívar, Venezuela",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q26906"
+        },
+        {
+          "input": "Caraccas",
+          "matched": false
+        }
+      ]
+    }
+  },
+  "Islands": {
+    "main_items": [
+      {
+        "input": "Trinidad",
+        "wikidata_id": "Q9361602",
+        "wikidata_label": "Trinidad",
+        "wikidata_description": "given name",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q9361602"
+      },
+      {
+        "input": "Leguan",
+        "wikidata_id": "Q83637765",
+        "wikidata_label": "IMO 9448669",
+        "wikidata_description": "ship built in 2010",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q83637765"
+      },
+      {
+        "input": "Walkenaam",
+        "matched": false
+      },
+      {
+        "input": "Tiger Island",
+        "wikidata_id": "Q1324660",
+        "wikidata_label": "Tiger Island",
+        "wikidata_description": "mountain",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q1324660"
+      }
+    ],
+    "subsections": {}
+  },
+  "Institutions": {
+    "main_items": [
+      {
+        "input": "Royal Geographical Society (London)",
+        "wikidata_id": "Q691152",
+        "wikidata_label": "Royal Geographical Society",
+        "wikidata_description": "British learned society",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q691152"
+      }
+    ],
+    "subsections": {}
+  },
+  "Historical Concepts": {
+    "main_items": [
+      {
+        "input": "El Dorado de la Parime",
+        "matched": false
+      }
+    ],
+    "subsections": {}
+  },
+  "Species/Biological Entities": {
+    "main_items": [],
+    "subsections": {
+      "Animals": [
+        {
+          "input": "Jaguar (Felis onca)",
+          "wikidata_id": "Q35694",
+          "wikidata_label": "jaguar",
+          "wikidata_description": "species of big cat native to the Americas",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q35694"
+        },
+        {
+          "input": "Puma/Couguar (Felis concolor & discolor)",
+          "matched": false
+        },
+        {
+          "input": "Colibri",
+          "wikidata_id": "Q221209",
+          "wikidata_label": "Colibri",
+          "wikidata_description": "genus of birds",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q221209"
+        },
+        {
+          "input": "Condor",
+          "wikidata_id": "Q36894690",
+          "wikidata_label": "Condor",
+          "wikidata_description": "family name",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q36894690"
+        },
+        {
+          "input": "Sloth",
+          "wikidata_id": "Q37554416",
+          "wikidata_label": "Sloth",
+          "wikidata_description": "family name",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q37554416"
+        },
+        {
+          "input": "Ant-eater",
+          "wikidata_id": "Q972452",
+          "wikidata_label": "Vermilingua",
+          "wikidata_description": "mammals known for eating ants and termites",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q972452"
+        },
+        {
+          "input": "Armadillo",
+          "wikidata_id": "Q24786902",
+          "wikidata_label": "Armadillo",
+          "wikidata_description": "InterPro Repeat",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q24786902"
+        },
+        {
+          "input": "Boa constrictor",
+          "wikidata_id": "Q215388",
+          "wikidata_label": "Boa constrictor",
+          "wikidata_description": "species of reptile",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q215388"
+        },
+        {
+          "input": "Rattle snake",
+          "wikidata_id": "Q124394525",
+          "wikidata_label": "RattleSnake",
+          "wikidata_description": "2007 board game",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q124394525"
+        },
+        {
+          "input": "Mosquito (tipulae)",
+          "wikidata_id": "Q7367",
+          "wikidata_label": "Culicidae",
+          "wikidata_description": "family of nematoceran flies",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q7367"
+        }
+      ]
+    }
+  },
+  "Ethnic/Cultural Groups": {
+    "main_items": [
+      {
+        "input": "Creoles",
+        "wikidata_id": "Q498640",
+        "wikidata_label": "Creole",
+        "wikidata_description": "ethnic groups formed from mixed cultural and linguistic ancestry",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q498640"
+      },
+      {
+        "input": "Indians",
+        "wikidata_id": "Q862086",
+        "wikidata_label": "Indians",
+        "wikidata_description": "citizens or residents of India",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q862086"
+      },
+      {
+        "input": "Negroes",
+        "wikidata_id": "Q198218",
+        "wikidata_label": "Negrões",
+        "wikidata_description": "civil parish in Montalegre",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q198218"
+      },
+      {
+        "input": "Europeans",
+        "wikidata_id": "Q394067",
+        "wikidata_label": "European people",
+        "wikidata_description": "people of Europe",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q394067"
+      },
+      {
+        "input": "Spaniards",
+        "wikidata_id": "Q160894",
+        "wikidata_label": "Spaniards",
+        "wikidata_description": "people native to any part of Spain or that hold Spanish citizenship",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q160894"
+      },
+      {
+        "input": "Portuguese",
+        "wikidata_id": "Q5146",
+        "wikidata_label": "Portuguese",
+        "wikidata_description": "Western Romance language of the Indo-European language family",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q5146"
+      },
+      {
+        "input": "Africans",
+        "wikidata_id": "Q1075929",
+        "wikidata_label": "African people",
+        "wikidata_description": "inhabitants or ascendants of the African continent",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q1075929"
+      }
+    ],
+    "subsections": {}
+  },
+  "Trade and Commerce": {
+    "main_items": [],
+    "subsections": {
+      "Measurement Units": [
+        {
+          "input": "Arobes",
+          "wikidata_id": "Q126181086",
+          "wikidata_label": "Arobes",
+          "wikidata_description": "",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q126181086"
+        },
+        {
+          "input": "Tassajó",
+          "matched": false
+        }
+      ],
+      "Mineral Resources": [
+        {
+          "input": "Diamonds",
+          "wikidata_id": "Q74038",
+          "wikidata_label": "Diamonds",
+          "wikidata_description": "2012 single by Rihanna",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q74038"
+        },
+        {
+          "input": "Gold",
+          "wikidata_id": "Q13553585",
+          "wikidata_label": "Gold",
+          "wikidata_description": "family name",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q13553585"
+        },
+        {
+          "input": "Iron",
+          "wikidata_id": "Q677",
+          "wikidata_label": "iron",
+          "wikidata_description": "chemical element with symbol Fe and atomic number 26",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q677"
+        },
+        {
+          "input": "Tin",
+          "wikidata_id": "Q1096",
+          "wikidata_label": "tin",
+          "wikidata_description": "chemical element with symbol Sn and atomic number 50",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q1096"
+        },
+        {
+          "input": "Lead",
+          "wikidata_id": "Q708",
+          "wikidata_label": "lead",
+          "wikidata_description": "chemical element with symbol Pb and atomic number 82",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q708"
+        },
+        {
+          "input": "Quicksilver",
+          "wikidata_id": "Q925",
+          "wikidata_label": "mercury",
+          "wikidata_description": "chemical element with symbol Hg and atomic number 80",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q925"
+        },
+        {
+          "input": "Silver",
+          "wikidata_id": "Q1090",
+          "wikidata_label": "silver",
+          "wikidata_description": "chemical element with symbol Ag and atomic number 47",
+          "confidence_score": 0.0,
+          "wikidata_url": "https://www.wikidata.org/wiki/Q1090"
+        }
+      ]
+    }
+  },
+  "Transportation": {
+    "main_items": [
+      {
+        "input": "Canoe (coreal)",
+        "wikidata_id": "Q171529",
+        "wikidata_label": "canoe",
+        "wikidata_description": "light boat that is paddled",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q171529"
+      }
+    ],
+    "subsections": {}
+  },
+  "Historical Dates": {
+    "main_items": [
+      {
+        "input": "1548 (European animals introduction)",
+        "wikidata_id": "Q12681485",
+        "wikidata_label": "1548",
+        "wikidata_description": "natural number",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q12681485"
+      },
+      {
+        "input": "1739-1740 (Hortsmann's journey)",
+        "wikidata_id": "Q61707030",
+        "wikidata_label": "1739-1740 one-year-period",
+        "wikidata_description": "period of about one year starting in 1739 and ending in 1740",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q61707030"
+      },
+      {
+        "input": "1793 (Barate's journey)",
+        "wikidata_id": "Q12681620",
+        "wikidata_label": "1793",
+        "wikidata_description": "natural number",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q12681620"
+      },
+      {
+        "input": "February 1811 (Dutch colonists' arrival)",
+        "wikidata_id": "Q16637825",
+        "wikidata_label": "February 1811",
+        "wikidata_description": "month of 1811",
+        "confidence_score": 0.0,
+        "wikidata_url": "https://www.wikidata.org/wiki/Q16637825"
+      }
+    ],
+    "subsections": {}
+  },
+  "Climate Periods": {
+    "main_items": [
+      {
+        "input": "January to December (specific climatic period)",
+        "matched": false
+      }
+    ],
+    "subsections": {}
+  }
+}
