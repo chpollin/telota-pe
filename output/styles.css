@@ -1,0 +1,276 @@
+/* Base Layout */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Linux Libertine', Georgia, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+ }
+ 
+ .container {
+    display: grid;
+    grid-template-columns: minmax(200px, 300px) minmax(500px, 1fr) minmax(300px, 400px);
+    gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+ }
+ 
+ /* Facsimile Panel */
+ .facsimile {
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+ }
+ 
+ .facsimile img {
+    width: 100%;
+    height: auto;
+    cursor: zoom-in;
+ }
+ 
+ /* Main Text Area */
+ .main-text {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    position: relative;
+    min-height: calc(100vh - 40px);
+ }
+ 
+ /* Critical Apparatus */
+ .apparatus {
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+ }
+ 
+ /* Text Elements */
+ .supplied {
+    color: #666;
+    background-color: #f0f0f0;
+    padding: 0 3px;
+    border-radius: 2px;
+ }
+ 
+ .foreign {
+    font-style: italic;
+    color: #444;
+ }
+ 
+ .annotation {
+    background-color: #fff3d4;
+    cursor: pointer;
+    padding: 0 2px;
+ }
+ 
+ .page-break {
+    border-top: 1px solid #ddd;
+    margin: 2em 0;
+    text-align: right;
+    color: #888;
+    font-size: 0.9em;
+    padding: 5px 0;
+ }
+ 
+ .footnote-marker {
+    vertical-align: super;
+    font-size: smaller;
+    color: #0066cc;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 2px;
+ }
+ 
+ .editorial-note {
+    background-color: #e1f5fe;
+    cursor: pointer;
+    padding: 0 3px;
+    border-radius: 2px;
+ }
+ 
+ .underline {
+    text-decoration: underline;
+ }
+ 
+ .italic {
+    font-style: italic;
+ }
+ 
+ /* Lists */
+ .letter-list {
+    list-style-type: lower-alpha;
+    padding-left: 1.5em;
+ }
+ 
+ /* Headers */
+ h2, h3, h4 {
+    color: #333;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+ }
+ 
+ h3 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.3em;
+ }
+ 
+ /* Apparatus Sections */
+ #footnotes, #editorial-notes, #apparatus-entries {
+    margin-bottom: 2em;
+ }
+ 
+ .footnote, .editorial-note, .apparatus-entry {
+    padding: 8px;
+    margin: 5px 0;
+    border-left: 3px solid #ddd;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .footnote:hover, .editorial-note:hover, .apparatus-entry:hover {
+    background-color: #f5f5f5;
+    border-left-color: #0066cc;
+ }
+ 
+ /* Person Names and Titles */
+ .person {
+    color: #2e7d32;
+ }
+ 
+ .title {
+    font-style: italic;
+    color: #1565c0;
+ }
+ 
+ /* Deletions */
+ del {
+    text-decoration: line-through;
+    color: #999;
+ }
+ 
+ /* Abbreviations */
+ abbr {
+    cursor: help;
+    border-bottom: 1px dotted #666;
+ }
+ 
+ /* Interactive Elements */
+ [data-target] {
+    transition: background-color 0.3s ease;
+ }
+ 
+ [data-target]:hover {
+    background-color: #fff3d4;
+ }
+ 
+ /* Responsive Design */
+ @media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr minmax(300px, 400px);
+    }
+    
+    .facsimile {
+        display: none;
+    }
+ }
+ 
+ @media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .apparatus {
+        position: relative;
+        height: auto;
+        margin-top: 20px;
+    }
+ }
+ 
+ /* Print Styles */
+ @media print {
+    .container {
+        display: block;
+    }
+    
+    .facsimile, .apparatus {
+        display: none;
+    }
+    
+    .main-text {
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    .page-break {
+        page-break-before: always;
+    }
+ }
+ 
+ /* Animations */
+ @keyframes highlight {
+    0% { background-color: #fff3d4; }
+    100% { background-color: transparent; }
+ }
+ 
+ .highlight {
+    animation: highlight 2s ease-out;
+ }
+ 
+ /* Accessibility */
+ @media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+ }
+ 
+ /* High Contrast Mode */
+ @media (prefers-contrast: high) {
+    .supplied,
+    .editorial-note,
+    .annotation {
+        border: 1px solid currentColor;
+    }
+ }
+ 
+ /* Dark Mode Support */
+ @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    .main-text,
+    .apparatus,
+    .facsimile {
+        background-color: #2d2d2d;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    .supplied {
+        background-color: #3d3d3d;
+        color: #ccc;
+    }
+    
+    .editorial-note {
+        background-color: #263238;
+    }
+    
+    .annotation {
+        background-color: #3e2723;
+    }
+ }
